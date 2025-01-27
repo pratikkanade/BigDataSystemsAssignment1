@@ -1,0 +1,77 @@
+{
+    "table_info": {
+        "table_id": 3,
+        "table_filename": "page_4_table_1.json",
+        "page_number": 4,
+        "rows": 12,
+        "columns": 2,
+        "preview": [
+            [
+                "1",
+                "The protection of food products takes center stage"
+            ],
+            [
+                "2",
+                "The food product-package is one inseparable unit"
+            ],
+            [
+                "3",
+                "For food packaging both direct and indirect sustainability effects must\nbe considered"
+            ]
+        ],
+        "location": {
+            "page": 4,
+            "relative_position": 1
+        }
+    },
+    "table_data": [
+        [
+            "1",
+            "The protection of food products takes center stage"
+        ],
+        [
+            "2",
+            "The food product-package is one inseparable unit"
+        ],
+        [
+            "3",
+            "For food packaging both direct and indirect sustainability effects must\nbe considered"
+        ],
+        [
+            "4",
+            "Food packaging is a resource, not litter"
+        ],
+        [
+            "5",
+            "Avoidance of food packaging is not always the best option"
+        ],
+        [
+            "6",
+            "Sustainable food packaging development, in practice, is a balancing act"
+        ],
+        [
+            "7",
+            "Multidisciplinary approach is needed to create sustainable food packaging\nsolutions"
+        ],
+        [
+            "8",
+            "Not all food packaging innovation is sustainable"
+        ],
+        [
+            "9",
+            "Context (local) is key to food packaging sustainability"
+        ],
+        [
+            "10",
+            "Regulatory landscape of sustainable food packaging is not fully\ncomprehensive"
+        ],
+        [
+            "11",
+            "Consumer knowledge and awareness on sustainable food packaging is\nlimited"
+        ],
+        [
+            "12",
+            "Food packaging is an information source on both product and packaging\nsustainability"
+        ]
+    ]
+}

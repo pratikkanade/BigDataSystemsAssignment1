@@ -1,0 +1,41 @@
+{
+    "pdf_name": "example",
+    "parse_date": "2023-11-14T10:30:00",
+    "pages": [
+        {
+            "page_number": 0,
+            "text_filename": "page_0.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 1,
+            "image_count": 2
+        }
+    ],
+    "tables_summary": [
+        {
+            "table_id": 1,
+            "table_filename": "page_0_table_0.json",
+            "page_number": 0,
+            "rows": 5,
+            "columns": 3,
+            "preview": [],
+            "location": {
+                "page": 0,
+                "relative_position": 0
+            }
+        }
+    ],
+    "images_summary": [
+        {
+            "image_id": 1,
+            "image_filename": "page_0_img_0.png",
+            "page_number": 0,
+            "width": 300,
+            "height": 200,
+            "location": {
+                "page": 0,
+                "relative_position": 0
+            }
+        }
+    ]
+}

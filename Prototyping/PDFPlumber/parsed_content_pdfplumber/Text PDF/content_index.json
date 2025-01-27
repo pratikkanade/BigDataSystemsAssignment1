@@ -1,0 +1,32 @@
+{
+    "pdf_name": "Text PDF",
+    "parse_date": "2025-01-26T18:56:54.246541",
+    "pages": [
+        {
+            "page_number": 0,
+            "text_filename": "page_0.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 1,
+            "text_filename": "page_1.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 2,
+            "text_filename": "page_2.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        }
+    ],
+    "tables_summary": [],
+    "images_summary": []
+}

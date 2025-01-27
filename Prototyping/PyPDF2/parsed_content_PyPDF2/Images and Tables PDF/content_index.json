@@ -1,0 +1,75 @@
+{
+    "pdf_name": "Images and Tables PDF",
+    "parse_date": "2025-01-26T18:55:08.338536",
+    "pages": [
+        {
+            "page_number": 0,
+            "text_filename": "page_0.txt",
+            "images": []
+        },
+        {
+            "page_number": 1,
+            "text_filename": "page_1.txt",
+            "images": []
+        },
+        {
+            "page_number": 2,
+            "text_filename": "page_2.txt",
+            "images": []
+        },
+        {
+            "page_number": 3,
+            "text_filename": "page_3.txt",
+            "images": []
+        },
+        {
+            "page_number": 4,
+            "text_filename": "page_4.txt",
+            "images": []
+        },
+        {
+            "page_number": 5,
+            "text_filename": "page_5.txt",
+            "images": [
+                {
+                    "image_filename": "page_5_img_0.png",
+                    "position": 0
+                },
+                {
+                    "image_filename": "page_5_img_1.png",
+                    "position": 1
+                }
+            ]
+        },
+        {
+            "page_number": 6,
+            "text_filename": "page_6.txt",
+            "images": []
+        },
+        {
+            "page_number": 7,
+            "text_filename": "page_7.txt",
+            "images": []
+        },
+        {
+            "page_number": 8,
+            "text_filename": "page_8.txt",
+            "images": []
+        },
+        {
+            "page_number": 9,
+            "text_filename": "page_9.txt",
+            "images": []
+        },
+        {
+            "page_number": 10,
+            "text_filename": "page_10.txt",
+            "images": []
+        },
+        {
+            "page_number": 11,
+            "text_filename": "page_11.txt",
+            "images": []
+        }
+    ]
+}

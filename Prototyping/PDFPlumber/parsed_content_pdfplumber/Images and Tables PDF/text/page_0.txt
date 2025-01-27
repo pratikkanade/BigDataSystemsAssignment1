@@ -1,0 +1,79 @@
+TYPE Original Research
+PUBLISHED 21 April 2023
+DOI 10.3389/fsufs.2023.1119052
+Sustainable food packaging: An
+updated definition following a
+OPEN ACCESS
+EDITED BY holistic approach
+Annalisa Serio,
+University of Teramo, Italy
+REVIEWED BY Krisztina Rita Dörnyei 1*, Ilke Uysal-Unalan 2, Victoria Krauter 3,
+Barbara Del Curto,
+Polytechnic University of Milan, Italy Ramona Weinrich 4, Loredana Incarnato 5, Igor Karlovits 6,
+Péter Böröcz,
+Széchenyi István University, Hungary Giancarlo Colelli 7, Polymeros Chrysochou 8,
+*CORRESPONDENCE Margaret Camilleri Fenech 9, Marit Kvalvåg Pettersen 10,
+Krisztina Rita Dörnyei
+Elena Arranz 11, Begonya Marcos 12, Valeria Frigerio 13†,
+krisztina.dornyei@uni-corvinus.hu
+Annalisa Apicella 5, Selçuk Yildirim 14, Fátima Poças 15,
+†PRESENT ADDRESS
+Valeria Frigerio, Matthijs Dekker 16, Lahti Johanna 17, Véronique Coma 18 and
+Nestlé Research Center, Lausanne, Switzerland
+Milena Corredig 2
+SPECIALTY SECTION
+This article was submitted to
+1 Institute of Marketing, Corvinus University of Budapest, Budapest, Hungary, 2 Department of Food
+Sustainable Food Processing,
+Science, CiFood, Aarhus University, Aarhus, Denmark, 3 Section Packaging and Resource Management,
+a section of the journal
+University of Applied Sciences, Vienna, Austria, 4 Department of Consumer Behaviour in the
+Frontiers in Sustainable Food Systems
+Bioeconomy, University of Hohenheim, Stuttgart, Germany, 5 Department of Industrial Engineering,
+RECEIVED 08 December 2022 University of Salerno, Fisciano, Italy, 6 Department of Print and Packaging, Pulp and Paper Institute,
+ACCEPTED 31 March 2023 Ljubljana, Slovenia, 7 Department of the Science of Agriculture, Food and Environment, University of
+PUBLISHED 21 April 2023 Foggia, Foggia, Italy, 8 Department of Management, Aarhus University, Aarhus, Denmark, 9 Institute for
+Climate Change and Sustainable Development, University of Malta, Msida, Malta, 10 Nofima AS,
+CITATION Norwegian Institute of Food, Fisheries and Aquaculture Research, Tromsø, Norway, 11 Department of
+Dörnyei KR, Uysal-Unalan I, Krauter V,
+Nutrition and Food Science, Faculty of Pharmacy, Complutense University of Madrid, Madrid, Spain,
+Weinrich R, Incarnato L, Karlovits I, Colelli G, 12 Food Quality and Technology, IRTA, Food Quality and Technology, Monells, Spain, 13 Department of
+Chrysochou P, Fenech MC, Pettersen MK, Food Environmental and Nutritional Sciences, Università degli Studi di Milano, Milano, Italy, 14 Institute of
+Arranz E, Marcos B, Frigerio V, Apicella A, Food and Beverage Innovation, Zurich University of Applied Sciences, Winterthur, Switzerland, 15 Centro
+Yildirim S, Poças F, Dekker M, Johanna L,
+de Biotecnologia e Química Fina, Laboratório Associado, Universidade Católica Portuguesa, Porto,
+Coma V and Corredig M (2023) Sustainable Portugal, 16 Food Quality and Design Group, Wageningen University, Wageningen, Netherlands,
+food packaging: An updated definition 17 Sustainable Materials and Products, VTT Technical Research Centre of Finland, Tampere, Finland,
+following a holistic approach. 18 LCPO-UMR5629, University of Bordeaux, CNRS, INP/ENSCPB, Pessac, France
+Front. Sustain. Food Syst. 7:1119052.
+doi: 10.3389/fsufs.2023.1119052
+COPYRIGHT Food packaging solutions need to be redesigned to be more sustainable,
+© 2023 Dörnyei, Uysal-Unalan, Krauter, but determining which solution is ‘more optimal’ is a very difficult task when
+Weinrich, Incarnato, Karlovits, Colelli,
+considering the entire food product value chain. Previous papers paved the way
+Chrysochou, Fenech, Pettersen, Arranz,
+Marcos, Frigerio, Apicella, Yildirim, Poças, toward a sustainable food packaging definition, but it is far from being commonly
+Dekker, Johanna, Coma and Corredig. This is accepted or well usable in the broad food systems domain, which further results
+an open-access article distributed under the
+in uninformed choices for sustainable food packaging made by all stakeholders in
+terms of the Creative Commons Attribution
+License (CC BY). The use, distribution or the value chain: producers, distributors, practitioners and consumers. Therefore,
+reproduction in other forums is permitted, this work aims first at giving a state-of-the-art overview of sustainable food
+provided the original author(s) and the
+packaging terms (38 similar terms were identified and grouped into four clusters:
+copyright owner(s) are credited and that the
+original publication in this journal is cited, in Sustainable, Circular, Bio and Other sustainable packaging) and definitions using
+accordance with accepted academic practice. systematic (narrative) review analysis and ‘controlled expert opinion feedback’
+No use, distribution or reproduction is
+methodology. Second, it aims to offer an updated definition for sustainable food
+permitted which does not comply with these
+terms. packaging, which is also specific to food packaging and be simple, coherent, easily
+understandable, and communicable to everybody. The applied holistic approach
+intends to include all aspects of the food-packaging unit, to consider food safety
+and packaging functionality, while taking into account different disciplines and
+challenges related to food packaging along the supply chain. Being a balancing
+act, a sustainable food packaging may not be a perfect solution, but contextual,
+suboptimal and in need of constant validation.
+KEYWORDS
+food, packaging, definition, sustainable, holistic, eco-friendly packaging, circular, challenges
+Frontiers in Sustainable Food Systems 01 frontiersin.org

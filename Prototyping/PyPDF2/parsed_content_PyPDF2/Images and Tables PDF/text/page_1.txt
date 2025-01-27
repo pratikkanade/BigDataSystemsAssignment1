@@ -1,0 +1,113 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+Frontiers in Sustainable Food Systems 02 frontiersin.org1. Introduction
+Food packaging solutions are widely recognized to produce 
+multiple advantages within the whole food supply chain and related 
+stakeholders, but the present consumption rate of materials, linear 
+production and consumption models used for packaging, and their 
+littering make the current situation no longer bearable. The current 
+packaging solutions for food need to be  redesigned in a more 
+sustainable way ( Herbes et al., 2020 ; Testa et al., 2020 ). Without a 
+doubt, the environmental problems caused by (fossil fuel-based plastic 
+and high resource intensive materials) packaging need to be tackled 
+by launching new solutions, focusing on refuse, reuse, replace, reduce 
+as well as recycle such materials (see e.g.: Papargyropoulou et al., 2014 ; 
+Knauf, 2015 ; Van Ewijk and Stegemann, 2016 ). The concept of 
+packaging sustainability—in accordance with the Brundtland Report 
+(Keeble, 1988 ), is defined as a ‘development that meets the needs of 
+the present without compromising the ability of future generations to 
+meet their own needs’—has been one of the most highly discussed 
+topics for some time ( Nordin and Selke, 2010 ; Boz et al., 2020 ; 
+Ketelsen et al., 2020 ), and has been an emerging area of interest for 
+scholars and practitioners around the world ( Ketelsen et al., 2020 ; 
+Vila-Lopez and Küster-Boluda, 2020 ; Wandosell et al., 2021 ).
+Previous papers paved the way toward a sustainable food packaging 
+definition ( Wikström et al., 2019 ; Camilleri, 2020 ; Morseletto, 2020 ), but 
+it is far from being commonly accepted or well usable in the broad food 
+systems domain. Companies (such as Coca-Cola, McDonald’s, Tesco), 
+organizations [such as Sustainable Packaging Alliance (SPA) and 
+Sustainable Packaging Coalition (SPC)] and academic researchers with 
+different academic backgrounds (economic, material sciences, 
+environmental management, etc.) have formulated various definitions, 
+which are not fully aligned ( Pauer et al., 2019 ). The lack of agreement is 
+leading to confusion not only among consumers, who already struggle 
+with identifying sustainable packaging solutions at the point of sale ( Boz 
+et al., 2020 ; Acuti et al., 2022 ), but presumably also among legislators and 
+other supply chain members ( Trubetskaya et al., 2022 ). Lack of a widely 
+accepted definition (or use of strict versus vague definitions) may lead to 
+major inconsistencies, even to misleading consumers, greenwashing or 
+fraud. When there is no clear understanding of what a sustainable food 
+packaging is, consumers can make wrong choices even with the best of 
+their intentions, from a sustainable point of view (information 
+asymmetry; Akerlof, 1970 ). This for example may lead to preferring the 
+less sustainable packaging at the expense of the more sustainable one, 
+which then may even disappear from the market. This becomes even 
+more complicated in situations where organizational changes are needed, 
+as for example in tackling solutions linked to re-use of packaging.
+This intrinsic controversy that characterizes food products 
+complicates the definition of sustainability in the packaging field. 
+Current definitions on sustainability of packaging solutions are often 
+associated with only waste reduction and pollution prevention. For 
+example, the current EU strategies toward the circular economy 
+deliver a sustainability definition based on packaging waste reduction 
+and support it by the implementation of several tools and requirements 
+(European Commission, 2015 , 2019 , 2020 ). This approach may not 
+capture the complexity that food packaging has. Food packaging must 
+serve some critical basic functions, but developing such packages 
+nowadays is more of a balancing act between costs and benefits to 
+reach an equilibrium (e.g., less packaging or more food waste). For 
+example, it has to protect the food from external influences (physical, 
+chemical and biological) throughout the supply chain (including many stages such as point of purchase, use at home and post-use), 
+maintain its safety and quality during the given shelf life, refrain from 
+releasing harmful substances into the food, respond to the highest 
+safety standards, which are set by regulatory agencies ( Begley et al., 
+2005 ), provide visual product quality cues and other relevant 
+information important for consumers’ trust and ultimately reduce 
+food waste and loss. All of these aspects are of critical importance. 
+Furthermore, the requirements for packaging may be different for the 
+same product in different supply chains (e.g.: kept at ambient, cold, or 
+frozen storage), causing increased complexities.
+Food packaging has a special place in the plastic packaging debate 
+since 40% of the plastic produced, namely PE, PP , PET and PS, is being 
+used in food packaging applications ( Plastics Europe, 2021 ), and the 
+use of plastic in this domain is seen by consumers as a problem larger 
+than climate change ( Otto et al., 2021 ). Selecting the right packaging 
+method, material and tailoring properties according to the needs of 
+the food product (fit-for-purpose packaging as reported by Verghese 
+et  al., 2015 ) is a critical aspect, since every product has its own 
+characteristics, thereby having product-specific requirements. All 
+those factors add complications when striving for sustainable 
+harmonization and obviously cause a new set of challenges at the end 
+of life of the particular packaging material ( Bauer et al., 2021 ).
+Hence, harmonization is required to ensure uniform strategies when 
+defining packaging sustainability and packaged food supply systems, 
+across all actors. Furthermore, clear communication to and from 
+policymakers is needed—especially in industry sectors where producers 
+are overburdened by cost, legislation, and strict but sometimes 
+overwhelmingly skewed compliance requirements. A commonly agreed 
+holistic definition of sustainable food packaging would show how 
+sustainability can be  assessed for food products, would accelerate 
+progress, alleviate the discourse, and would assist in the establishment of 
+effective collaborations among stakeholders. In addition, this agreement 
+will also reduce greenwashing by avoiding the fashionable effects of 
+certain terms relating to sustainability, used wrongly or rightly, making 
+more complex the consumer’s choice in the end and the work of 
+industrials really invested in reducing the environmental impact.
+Therefore, the aims of this article are (1) to clarify the currently 
+used terms and definitions for sustainable food packaging, (2) to 
+identify critical issues which are relevant to the topic, and (3) to offer 
+an updated and holistic consensus definition for sustainable food 
+packaging. This work was carried out by a vast group of researchers 
+engaged in different disciplines of food packaging and with diverse 
+research backgrounds, therefore, this new definition intends to 
+consider the entire value chain, which extends from raw material 
+resources all the way to post consumer processing of the packaging 
+material. Contrary to previous definitions, this definition aims to 
+be specific to food packaging and be simple yet coherent, holistic and 
+harmonic, easily understandable, and communicable to everybody. 
+Moreover, this article is written with the undisguised goal of starting 
+an international dialog on this very impactful and dynamic subject.
+2. Methodology
+2.1. Analysis framework
+The analysis framework consisted of three steps. Firstly, a 
+systematic (narrative) review analysis was performed using Web of 
+Science. Articles in a 20 years’ time range (2002 to July 2022) were 
