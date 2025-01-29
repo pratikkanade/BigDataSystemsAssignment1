@@ -2,7 +2,6 @@ import fitz
 import pandas as pd
 import boto3
 from io import BytesIO
-from pathlib import Path
 import os
 from dotenv import load_dotenv
 
@@ -20,14 +19,19 @@ def upload_file_to_s3(file_content, bucket_name, s3_path):
     )
     s3.upload_fileobj(file_content, bucket_name, s3_path)
 
-def process_pdf_s3_upload(pdf_path, bucket_name):
-    pdf_name = Path(pdf_path).stem
-    parser_prefix = f"{pdf_name}/PyMuPDF"
+def process_pdf_s3_upload(file_name, file_stream, bucket_name):
+    
+    # Convert bytes into a file-like object
+    #doc = BytesIO(file_content)
+
+    #pdf_name = Path(pdf_path).stem
+    #file_name = 'Text PDF'
+    parser_prefix = f"{file_name}/PyMuPDF"
     image_prefix = f"{parser_prefix}/images/"
     table_prefix = f"{parser_prefix}/tables/"
-    markdown_path = f"{parser_prefix}/{pdf_name}.md"
+    markdown_path = f"{parser_prefix}/{file_name}.md"
 
-    doc = fitz.open(pdf_path)
+    doc = fitz.open(stream=file_stream, filetype="pdf")
     markdown_content = ""
 
     for page_num in range(len(doc)):
