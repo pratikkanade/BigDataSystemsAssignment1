@@ -116,8 +116,8 @@ Performance Comparison
 Feature	                        PyMuPDF	             Adobe PDF Services	         BeautifulSoup	     Apify
 Text Extraction Accuracy	        High	               Very High	                 Moderate	          High
 Table/Image Preservation	       Limited	              Advanced	                    N/A	            High
-Scalability	                     Moderate	                 High	                    Moderate	         High
-Ease of Integration	              High	                 Moderate	                    High	           High
+Scalability	                     Moderate	             High	                    Moderate	         High
+Ease of Integration	              High	                Moderate	                    High	           High
 
 Key Findings
 
@@ -144,4 +144,5 @@ Deploy Prototype for Testing: Implement in a real-world environment and gather u
 Evaluate Cost-Effectiveness: Assess long-term costs of enterprise tools versus enhanced open-source solutions.
 
 This PoC demonstrates the viability of an AI-powered document processing pipeline and provides a foundation for scaling the solution in enterprise applications.
+
 
