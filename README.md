@@ -140,9 +140,11 @@ Enhance Open-source Solutions: Improve Apify and BeautifulSoup integration for b
 Optimize Pipeline Efficiency: Automate metadata tagging and processing using AI-based classification.
 
 Deploy Prototype for Testing: Implement in a real-world environment and gather user feedback.
-
 Evaluate Cost-Effectiveness: Assess long-term costs of enterprise tools versus enhanced open-source solutions.
 
 This PoC demonstrates the viability of an AI-powered document processing pipeline and provides a foundation for scaling the solution in enterprise applications.
 
+File Structure:
+![File Structure Part 1](FileStructure_part1.jpg)
+![Main File Structure](MainFilestructure_pat1.jpg)
 
