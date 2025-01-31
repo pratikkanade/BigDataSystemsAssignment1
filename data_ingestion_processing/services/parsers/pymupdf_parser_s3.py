@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 def upload_file_to_s3(file_content, bucket_name, s3_path):
 
     #load_dotenv()
-    load_dotenv(r'C:\Users\Admin\Desktop\MS Data Architecture and Management\DAMG 7245 - Big Data Systems and Intelligence Analytics\Assignment 1\environment\s3_adobe_access.env')
+    load_dotenv(r's3_adobe_access.env')
 
     #s3 = boto3.client('s3')
     s3 = boto3.client(

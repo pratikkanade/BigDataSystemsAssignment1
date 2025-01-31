@@ -41,8 +41,8 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
         if parser_type == "Open Source":
             s3_path = process_pdf_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
-        #elif parser_type == "Enterprise":
-        #    s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
+        elif parser_type == "Enterprise":
+            s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
         else:
             raise HTTPException(status_code=400, detail="Invalid parser type.")
