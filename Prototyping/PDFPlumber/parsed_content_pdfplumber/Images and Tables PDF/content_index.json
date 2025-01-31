@@ -1,0 +1,315 @@
+{
+    "pdf_name": "Images and Tables PDF",
+    "parse_date": "2025-01-26T18:58:44.651918",
+    "pages": [
+        {
+            "page_number": 0,
+            "text_filename": "page_0.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 1,
+            "text_filename": "page_1.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 2,
+            "text_filename": "page_2.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 3,
+            "text_filename": "page_3.txt",
+            "tables": [
+                {
+                    "table_id": 1,
+                    "table_filename": "page_3_table_0.json",
+                    "page_number": 3,
+                    "rows": 13,
+                    "columns": 3,
+                    "preview": [
+                        [
+                            "Terms",
+                            "Definitions/characterizations",
+                            "Source"
+                        ],
+                        [
+                            "Sustainable packaging (9)",
+                            null,
+                            null
+                        ],
+                        [
+                            "Sustainable packaging",
+                            "By using the word \u2018sustainable\u2019 the concept of sustainability is applied to the field of\npackaging production (product/package systems). It includes insertion of the goals\nof sustainable development (economic, social and environment) into the life cycle of\npackaging, from cradle to grave, throughout each stage of the supply chain. As a\nresult, sustainable packaging is perceived as safe, healthy, market-efficient, and cost-\neffective, which is obtained, produced, transported, and recycled via sources of\nrenewable energy, as well as with the use of renewable or recyclable materials; it also\nutilizes clean production technologies and best practices; is designed to optimize the\nmaterials and energy used, and can be effectively recovered and reused in numerous\nproduction cycles.",
+                            "Orzan et al. (2018); Gr\u00f6nman et al.\n(2013); Magnier and Schoormans\n(2015); Boz et al. (2020); Martinho\net al. (2015); Nordin and Selke (2010)"
+                        ]
+                    ],
+                    "location": {
+                        "page": 3,
+                        "relative_position": 0
+                    }
+                }
+            ],
+            "images": [],
+            "table_count": 1,
+            "image_count": 0
+        },
+        {
+            "page_number": 4,
+            "text_filename": "page_4.txt",
+            "tables": [
+                {
+                    "table_id": 2,
+                    "table_filename": "page_4_table_0.json",
+                    "page_number": 4,
+                    "rows": 8,
+                    "columns": 3,
+                    "preview": [
+                        [
+                            "Terms",
+                            "Definitions/characterizations",
+                            "Source"
+                        ],
+                        [
+                            "Compostable packaging",
+                            "Compostable packaging refers to materials which break down and degrade in the\nenvironment, but consists of only organic elements that degrade in the environment\nwithout leaving any toxic residue. All compostable materials are biodegradable, but\nnot all biodegradable materials are compostable.",
+                            "Reichert et al. (2020); Allison et al.\n(2021)"
+                        ],
+                        [
+                            "Edible packaging (films, coatings)",
+                            "Edible packaging is a wrapping or coating that is an integral part of the (food)\nproduct, fully degradable and can be eaten with the product.",
+                            "Petkoska et al. (2021); Janjarasskul and\nKrochta (2010); Kadzi\u0144ska et al. (2019);\nCutter (2006)"
+                        ]
+                    ],
+                    "location": {
+                        "page": 4,
+                        "relative_position": 0
+                    }
+                },
+                {
+                    "table_id": 3,
+                    "table_filename": "page_4_table_1.json",
+                    "page_number": 4,
+                    "rows": 12,
+                    "columns": 2,
+                    "preview": [
+                        [
+                            "1",
+                            "The protection of food products takes center stage"
+                        ],
+                        [
+                            "2",
+                            "The food product-package is one inseparable unit"
+                        ],
+                        [
+                            "3",
+                            "For food packaging both direct and indirect sustainability effects must\nbe considered"
+                        ]
+                    ],
+                    "location": {
+                        "page": 4,
+                        "relative_position": 1
+                    }
+                }
+            ],
+            "images": [],
+            "table_count": 2,
+            "image_count": 0
+        },
+        {
+            "page_number": 5,
+            "text_filename": "page_5.txt",
+            "tables": [],
+            "images": [
+                {
+                    "image_id": 1,
+                    "image_filename": "page_5_img_0.png",
+                    "page_number": 5,
+                    "width": 456.33598040000004,
+                    "height": 267.6959885,
+                    "location": {
+                        "page": 5,
+                        "relative_position": 0
+                    }
+                },
+                {
+                    "image_id": 2,
+                    "image_filename": "page_5_img_1.png",
+                    "page_number": 5,
+                    "width": 204.19199120000002,
+                    "height": 145.4399937,
+                    "location": {
+                        "page": 5,
+                        "relative_position": 1
+                    }
+                }
+            ],
+            "table_count": 0,
+            "image_count": 2
+        },
+        {
+            "page_number": 6,
+            "text_filename": "page_6.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 7,
+            "text_filename": "page_7.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 8,
+            "text_filename": "page_8.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 9,
+            "text_filename": "page_9.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 10,
+            "text_filename": "page_10.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        },
+        {
+            "page_number": 11,
+            "text_filename": "page_11.txt",
+            "tables": [],
+            "images": [],
+            "table_count": 0,
+            "image_count": 0
+        }
+    ],
+    "tables_summary": [
+        {
+            "table_id": 1,
+            "table_filename": "page_3_table_0.json",
+            "page_number": 3,
+            "rows": 13,
+            "columns": 3,
+            "preview": [
+                [
+                    "Terms",
+                    "Definitions/characterizations",
+                    "Source"
+                ],
+                [
+                    "Sustainable packaging (9)",
+                    null,
+                    null
+                ],
+                [
+                    "Sustainable packaging",
+                    "By using the word \u2018sustainable\u2019 the concept of sustainability is applied to the field of\npackaging production (product/package systems). It includes insertion of the goals\nof sustainable development (economic, social and environment) into the life cycle of\npackaging, from cradle to grave, throughout each stage of the supply chain. As a\nresult, sustainable packaging is perceived as safe, healthy, market-efficient, and cost-\neffective, which is obtained, produced, transported, and recycled via sources of\nrenewable energy, as well as with the use of renewable or recyclable materials; it also\nutilizes clean production technologies and best practices; is designed to optimize the\nmaterials and energy used, and can be effectively recovered and reused in numerous\nproduction cycles.",
+                    "Orzan et al. (2018); Gr\u00f6nman et al.\n(2013); Magnier and Schoormans\n(2015); Boz et al. (2020); Martinho\net al. (2015); Nordin and Selke (2010)"
+                ]
+            ],
+            "location": {
+                "page": 3,
+                "relative_position": 0
+            }
+        },
+        {
+            "table_id": 2,
+            "table_filename": "page_4_table_0.json",
+            "page_number": 4,
+            "rows": 8,
+            "columns": 3,
+            "preview": [
+                [
+                    "Terms",
+                    "Definitions/characterizations",
+                    "Source"
+                ],
+                [
+                    "Compostable packaging",
+                    "Compostable packaging refers to materials which break down and degrade in the\nenvironment, but consists of only organic elements that degrade in the environment\nwithout leaving any toxic residue. All compostable materials are biodegradable, but\nnot all biodegradable materials are compostable.",
+                    "Reichert et al. (2020); Allison et al.\n(2021)"
+                ],
+                [
+                    "Edible packaging (films, coatings)",
+                    "Edible packaging is a wrapping or coating that is an integral part of the (food)\nproduct, fully degradable and can be eaten with the product.",
+                    "Petkoska et al. (2021); Janjarasskul and\nKrochta (2010); Kadzi\u0144ska et al. (2019);\nCutter (2006)"
+                ]
+            ],
+            "location": {
+                "page": 4,
+                "relative_position": 0
+            }
+        },
+        {
+            "table_id": 3,
+            "table_filename": "page_4_table_1.json",
+            "page_number": 4,
+            "rows": 12,
+            "columns": 2,
+            "preview": [
+                [
+                    "1",
+                    "The protection of food products takes center stage"
+                ],
+                [
+                    "2",
+                    "The food product-package is one inseparable unit"
+                ],
+                [
+                    "3",
+                    "For food packaging both direct and indirect sustainability effects must\nbe considered"
+                ]
+            ],
+            "location": {
+                "page": 4,
+                "relative_position": 1
+            }
+        }
+    ],
+    "images_summary": [
+        {
+            "image_id": 1,
+            "image_filename": "page_5_img_0.png",
+            "page_number": 5,
+            "width": 456.33598040000004,
+            "height": 267.6959885,
+            "location": {
+                "page": 5,
+                "relative_position": 0
+            }
+        },
+        {
+            "image_id": 2,
+            "image_filename": "page_5_img_1.png",
+            "page_number": 5,
+            "width": 204.19199120000002,
+            "height": 145.4399937,
+            "location": {
+                "page": 5,
+                "relative_position": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+Frontiers in Sustainable Food Systems 06 frontiersin.org3.1.4. Other sustainable packaging
+Packages in this category fulfill certain aspects of sustainability 
+(Lewis et al., 2007 , 2010 ; Santi et al., 2022 ), which looks at broader 
+solutions for sustainable packaging, leading to effective, efficient, cyclic 
+and safe practices. For example, refills, innovative and lightweight 
+packages indicate solutions which bring significant improvements to 
+current practices, and to some extent also are easily demonstrating to 
+the end user (i.e., consumer) the improved function; for example, they 
+lead to minimizing food waste, decrease plastic littering, or improving 
+waste sorting are indicated in the definitions. These can be  also 
+considered as a subcategory of sustainable packaging.Based on the numerous (38) expressions collected, one can 
+conclude that, unfortunately, literature uses too many terms, of which 
+many are very similar (see synonyms such as ‘Environmentally 
+friendly’ , ‘Eco-friendly’ , ‘Ecologically responsible’ , ‘Ecologically 
+conscious’ , ‘Pro-environmental’ , ‘Eco-designed). In many cases the 
+definitions are superficial and cannot be used outside of the context 
+they belong to. The definitions treat the three pillars of sustainability 
+(natural, human, and economic capital; Hansmann et  al., 2012 ) 
+unequally, and the environment gets the most focus. Moreover, there 
+is little emphasis on the role (responsibility) that the actors (i.e., 
+consumers, managers) may play, and, more importantly, these terms 
+do not relate the packaging together with the product, which in food 
+is a grave simplification. The use of technical terms also may present 
+communication challenges, as this may hinder the public (mostly 
+consumers, but also journalists and managers) to understand, evaluate 
+and make appropriate practical decisions. Hence, the current 
+definitions of sustainable packaging are too complex and cannot 
+be communicated well because consumers and other stakeholders do 
+not have enough abilities (will) to process this information ( Dörnyei 
+et al., 2017 ). All these factors can lead to the so-called problem of 
+‘information overload’ , or worse, to misleading communication of 
+sustainable packaging (greenwashing).
+3.2. Challenges and reasons for updating 
+sustainable food packaging
+A review of the literature also brings up some of the important 
+challenges in relation to re-defining the concept of food packaging 
+sustainability (see Table 2 ).
+FIGURE 2
+Co-occurrence analysis of the most relevant papers in literature. Size of the nodes represent more frequently used terms. Different colors represent 
+different clusters. The minimum number of terms is 10, at least 30 times occurring /terms.
+FIGURE 1
+Number of publications on sustainable food packaging between 
+2002 and July 2022.

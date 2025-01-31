@@ -1,0 +1,21 @@
+{
+    "pdf_name": "Text PDF",
+    "parse_date": "2025-01-26T18:54:18.428936",
+    "pages": [
+        {
+            "page_number": 0,
+            "text_filename": "page_0.txt",
+            "images": []
+        },
+        {
+            "page_number": 1,
+            "text_filename": "page_1.txt",
+            "images": []
+        },
+        {
+            "page_number": 2,
+            "text_filename": "page_2.txt",
+            "images": []
+        }
+    ]
+}

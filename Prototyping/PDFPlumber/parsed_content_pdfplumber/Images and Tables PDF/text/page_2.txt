@@ -1,0 +1,64 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+extracted to create a knowledge database. The search string was Results also show limited integration between disciplines, or
+composed of the following keywords and fields: ‘Topic: Food’; ‘All connections between consumers, materials and food (see Figure 2).
+fields: Packaging’; Abstract: ‘sustainability’, ‘sustainable’, The lack of multidisciplinary research can also be a reason for missing
+‘environmental’, ‘circular’, ‘green’, ‘eco-friendly’ or ‘eco friendly’. clear definitions in the food packaging topic. For example, a large
+Boolean operators “AND” and “OR” were used to combine the three number of articles are related to technical (material) fields, such as
+defined research fields and keywords. If needed, additional articles antimicrobial substances to increase product shelf life. While other
+were also employed for analysis to further clarify some of the concepts. articles use more general terms and focus on consumer related issues
+The descriptive results of the literature search are described in without material related terms. Moreover, the absence of terms related
+Section 2.2. to end of life also indicates the need for a more integrated (holistic)
+In the second phase, relevant articles were qualitatively analyzed approach in this field, which can be completed first in a definition that
+to review the terminology, to identify critical issues and to create an can be easily understood by everyone.
+updated definition for sustainable packaging. Thirdly, a technique
+similar to Delphi (structured communication with qualitative
+3. Results
+analyzing approach) was used in two rounds to complete the initial
+review of the terminology, to refine the list of critical issues and to
+3.1. Previously used terms and definitions
+finalize the new definition. Similar methodologies are often used in
+of sustainable packaging
+many areas of science to find a consensus of a group of
+experts‘opinion with controlled opinion feedback (Dalkey and
+Helmer, 1963; Hasson and Keeney, 2011; Niederberger and Different terms used in previous research for sustainable
+Spranger, 2020), and it serves an important basis for evaluating packaging were reviewed (see Table 1, which summarizes the 38
+previous results and often useful when opinions from an expert different packaging terms related to the concept of sustainable
+group are presumably more accurate than those from unstructured packaging). All these terms highlight the (reduction of) impact that
+groups (Niederberger and Spranger, 2020), especially in a field packaging has on the environment or society (Ilgin and Gupta, 2010;
+where incomplete knowledge is evident (Giannarou and Zervas, Prakash and Pathak, 2017; Nguyen et al., 2020; Zeng and Durif, 2020).
+2014). First, a small panel of experts (a group of 5 experts; without The used terms have been summarized in four clusters: ‘Sustainable
+anonymity) was selected based on interdisciplinarity and expertise packaging’, ‘Circular packaging’, ‘Bio packaging’ and ‘Other sustainable’.
+in the field of sustainable packaging. During a series of online
+meetings all experts presented their views, then responses were 3.1.1. Sustainable packaging
+collected, conflicting viewpoints were identified, analyzed and Packaging solutions in this category include the Triple Bottom
+discussed until consensus was reached. The group’s views were Line (TBL) approach based on economic, social, and environmental
+analyzed qualitatively, and the initial text was modified accordingly. impacts (Jain and Hudnurkar, 2022) and their integration into the life
+In the second round a larger panel was constructed (a group of 20 cycle of the packaging material—from cradle to grave—throughout
+experts including the previous experts) to collect different views in each stage of the supply chain. Terms like environmentally friendly
+written form. Again, viewpoints were identified, analyzed and and green packaging are often used as synonyms for sustainable
+discussed until consensus was reached. packaging, therefore those were also put in this category; however,
+As a result, a review of terminology arranged based on agreed these are not necessarily synonyms. When describing sustainable
+relevance (Table 1; discussed in Section 3.1), a review of challenges packaging, authors either used their own definitions or the definitions
+(Table 2; discussed in Section 3.2) and the new definition (discussed by the Sustainable Packaging Coalition (2005, 2009) or the Sustainable
+in Section 4) for sustainable packaging were established. Packaging Alliance (2004). These definitions offer a valuable starting
+point, but have also been criticized earlier in literature (Grönman
+et al., 2013). It is also noted that sustainable packaging always comes
+2.2. General search results
+with an environmental impact, therefore ‘more’ and ‘less’ sustainable
+packaging would be a more appropriate term (Boz et al., 2020), or the
+The search with the keyword ‘food’ as a topic narrowed down the concept of ‘sustainable packaging’ should be deconstructed, because
+search to 854,551 references, while ‘packaging’ limited the search to this absolute value is rather utopic. Moreover, these terms do not refer,
+121,981 references. After applying the ‘sustainability’ keyword (or a at least directly, to the potential of reducing food waste, although this
+synonym such as ‘sustainable’, ‘environmental’, ‘circular’, ‘green’, may be sometimes the case, and are mostly focused on avoiding
+‘eco-friendly’ or ‘eco friendly’) the article search resulted in a database unnecessary packaging, overpackaging or single-use plastics, thus
+of 3,850 references. reducing the direct environmental consequences of the use of
+In general, results show that the food packaging community at the materials.
+large, which includes researchers, practitioners, industry and
+marketing experts, has been increasingly focused on finding 3.1.2. Circular packaging
+sustainable packaging solutions for food products. This is well Packages in this category are designed according to the
+reflected in Figure 1, where the number of publications related to principles of the circular economy. Recyclable, recycled, reusable
+‘sustainable food packaging’ have exponentially grown in the past and zero waste are often considered as similar terms, and so
+20 years with a steep increase in the years between 2019 and 2022. The grouped together. Circular packaging can be seen as one way
+trend can be assumed to continue in the near future, which makes the toward sustainability due to the reduction in new resources entering
+aim of this article especially relevant. the system. It can be regarded as a subcategory of sustainable
+Frontiers in Sustainable Food Systems 03 frontiersin.org
