@@ -4,7 +4,7 @@ from typing import Dict
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from pydantic import BaseModel, HttpUrl
 from data_ingestion_processing.services.parsers.pymupdf_parser_s3 import process_pdf_s3_upload
-#from data_ingestion_processing.services.parsers.enterprise_parser import parse_with_enterprise
+from data_ingestion_processing.services.parsers.adobe_parser_s3 import process_pdf_adobe_s3_upload
 #from data_ingestion_processing.services.parsers.selenium_parser import parse_with_selenium
 
 
@@ -39,8 +39,8 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
         if parser_type == "Open Source":
             s3_path = process_pdf_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
-        #elif parser_type == "enterprise":
-        #    parsed_content = parse_with_enterprise(file)
+        elif parser_type == "Enterprise":
+            s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
         else:
             raise HTTPException(status_code=400, detail="Invalid parser type.")
@@ -51,6 +51,9 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing file: {str(e)}")
+    
+    finally:
+        file.close()
     
 
 #@router.post("/webpage")

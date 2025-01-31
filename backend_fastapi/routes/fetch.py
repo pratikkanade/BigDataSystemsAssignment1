@@ -12,8 +12,8 @@ def fetch_parsed_file(filename: str, parser_type: str):
         # Choose parser based on parser_type
         if parser_type == "Open Source":
             file_path = f'{filename}/PyMuPDF/{filename}.md'
-        #elif parser_type == "enterprise":
-        #    parsed_content = parse_with_enterprise(file)
+        elif parser_type == "Enterprise":
+            file_path = f'{filename}/Adobe/{filename}.md'
         #elif parser_type == "selenium":
         #    parsed_content = parse_with_selenium(file)
         else:
@@ -22,7 +22,7 @@ def fetch_parsed_file(filename: str, parser_type: str):
         file_content = render_markdown_from_s3(bucket_name, file_path)
         #return {"filename": filename}
     
-        return f'{filename} retrieved. Total size in bytes: {len(file_content)}'
+        return f'{filename} contents : {file_content}'
     
 
     except FileNotFoundError:
