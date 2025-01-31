@@ -144,7 +144,4 @@ Evaluate Cost-Effectiveness: Assess long-term costs of enterprise tools versus e
 
 This PoC demonstrates the viability of an AI-powered document processing pipeline and provides a foundation for scaling the solution in enterprise applications.
 
-File Structure:
-![File Structure Part 1](FileStructure_part1.jpg)
-![Main File Structure](MainFilestructure_pat1.jpg)
 
