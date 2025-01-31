@@ -5,7 +5,7 @@ from fastapi import APIRouter, File, UploadFile, HTTPException
 from pydantic import BaseModel, HttpUrl
 from data_ingestion_processing.services.parsers.pymupdf_parser_s3 import process_pdf_s3_upload
 from data_ingestion_processing.services.parsers.adobe_parser_s3 import process_pdf_adobe_s3_upload
-#from data_ingestion_processing.services.parsers.selenium_parser import parse_with_selenium
+from data_ingestion_processing.services.parsers.bs_parser_s3 import parse_with_bs
 
 
 router = APIRouter()
@@ -16,10 +16,12 @@ MAX_FILE_SIZE = 3 * 1024 * 1024
 class URLInput(BaseModel):
     url: HttpUrl
 
+bucket_name='bigdatasystems'
+
 @router.post("/pdf")
 async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
 
-    bucket_name='bigdatasystems'
+    
     pdf_name = file.filename
 
     if not pdf_name.endswith(".pdf"):
@@ -39,8 +41,8 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
         if parser_type == "Open Source":
             s3_path = process_pdf_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
-        elif parser_type == "Enterprise":
-            s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
+        #elif parser_type == "Enterprise":
+        #    s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
         else:
             raise HTTPException(status_code=400, detail="Invalid parser type.")
@@ -56,13 +58,13 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
         file.close()
     
 
-#@router.post("/webpage")
-#async def process_webpage(parser_type: str, url_input: URLInput) -> Dict:
-#    try:
-#        # Call the scraping function
-#        if parser_type == 'Open Source':
-#            scraped_content = parse_with_selenium(str(url_input.url))
-#        return {"url": str(url_input.url), "content": scraped_content}
-#    
-#    except Exception as e:
-#        raise HTTPException(status_code=400, detail=f"Error scraping webpage: {str(e)}")
+@router.post("/webpage")
+async def process_webpage(parser_type: str, url_input: URLInput) -> Dict:
+    try:
+        # Call the scraping function
+        if parser_type == 'Open Source':
+            scraped_content = parse_with_bs(str(url_input.url), bucket_name)
+        return {"url parsed": str(url_input.url)}
+    
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Error scraping webpage: {str(e)}")
