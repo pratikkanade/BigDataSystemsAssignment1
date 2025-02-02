@@ -16,7 +16,7 @@ from io import BytesIO
 def upload_file_to_s3(file_content, bucket_name, s3_path):
 
     #load_dotenv()
-    load_dotenv(r's3_adobe_access.env')
+    load_dotenv(r'C:\Users\Admin\Desktop\MS Data Architecture and Management\DAMG 7245 - Big Data Systems and Intelligence Analytics\Assignment 1\environment\s3_adobe_access.env')
 
     #s3 = boto3.client('s3')
     s3 = boto3.client(
@@ -39,7 +39,7 @@ def convert_to_markdown(url, soup, bucket_name):
     markdown_path = f"{parser_prefix}/{url}.md"
 
     markdown_content = ""
-    table_count = 0  # Table counter
+    table_count = 0
     image_counter = 0
 
     for element in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'img', 'a', 'table']):

@@ -5,7 +5,6 @@ from backend_fastapi.routes import upload, fetch
 app = FastAPI(
     title="PDF Parser API",
     description="An API to upload PDFs, parse their content, and fetch parsed Markdown files from S3.",
-    version="1.0.0",
 )
 
 # Include your route modules

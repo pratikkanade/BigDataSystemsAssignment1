@@ -5,8 +5,9 @@ pydantic==2.10.5
 requests==2.31.0
 bs4==0.0.1
 selenium==4.28.1
-webdriver-manager==4.0.2
+webdriver_manager==4.0.2
 boto3==1.36.6
 PyMuPDF==1.25.2
 zipp==3.21.0
 pdfservices-sdk==4.1.0
+streamlit==1.41.1

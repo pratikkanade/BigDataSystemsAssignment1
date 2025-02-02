@@ -1,7 +1,7 @@
 import os
 from io import BytesIO
 from typing import Dict
-from fastapi import APIRouter, File, UploadFile, HTTPException
+from fastapi import APIRouter, File, Query, UploadFile, HTTPException
 from pydantic import BaseModel, HttpUrl
 from data_ingestion_processing.services.parsers.pymupdf_parser_s3 import process_pdf_s3_upload
 from data_ingestion_processing.services.parsers.adobe_parser_s3 import process_pdf_adobe_s3_upload
@@ -19,7 +19,7 @@ class URLInput(BaseModel):
 bucket_name='bigdatasystems'
 
 @router.post("/pdf")
-async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
+async def upload_pdf(parser_type: str = Query(...), file: UploadFile = File(...)):
 
     
     pdf_name = file.filename
@@ -36,12 +36,12 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
 
         if len(file_content) > MAX_FILE_SIZE:
             raise HTTPException(status_code=413, detail="File size exceeds the 3MB limit")
-        
+   
         # Choose parser based on parser_type
-        if parser_type == "Open Source":
+        if parser_type == "PyMuPDF (Open Source)":
             s3_path = process_pdf_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
-        elif parser_type == "Enterprise":
+        elif parser_type == "Adobe PDF Services (Enterprise)":
             s3_path = process_pdf_adobe_s3_upload(file_name, BytesIO(file_content), bucket_name)
 
         else:
@@ -59,12 +59,12 @@ async def upload_pdf(parser_type: str, file: UploadFile = File(...)):
     
 
 @router.post("/webpage")
-async def process_webpage(parser_type: str, url_input: URLInput) -> Dict:
+async def process_webpage(url_input: URLInput, parser_type: str = Query(...)) -> Dict:
     try:
         # Call the scraping function
-        if parser_type == 'Open Source':
+        if parser_type == "Beautiful Soup (Open Source)":
             scraped_content = parse_with_bs(str(url_input.url), bucket_name)
-        return {"url parsed": str(url_input.url)}
+        return {"url parsed": str(url_input.url), "parsed at" : scraped_content }
     
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error scraping webpage: {str(e)}")

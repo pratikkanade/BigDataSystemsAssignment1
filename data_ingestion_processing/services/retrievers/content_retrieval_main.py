@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 def get_s3_client():
 
     #load_dotenv()
-    load_dotenv(r'C:\Users\Admin\Desktop\MS Data Architecture and Management\DAMG 7245 - Big Data Systems and Intelligence Analytics\Assignment 1\environment\s3_access.env')
+    load_dotenv(r'C:\Users\Admin\Desktop\MS Data Architecture and Management\DAMG 7245 - Big Data Systems and Intelligence Analytics\Assignment 1\environment\s3_adobe_access.env')
 
     #s3 = boto3.client('s3')
     s3 = boto3.client(
@@ -35,3 +35,10 @@ def render_markdown_from_s3(bucket_name, markdown_key):
     #    file.write(markdown_content)
 
     return markdown_content
+
+# Usage
+#bucket_name = 'bigdatasystems'
+#url = "https:__en.wikipedia.org_wiki_Machine_learning"
+#markdown_key = 'https:__en.wikipedia.org_wiki_Machine_learning/BeautifulSoup/https:__en.wikipedia.org_wiki_Machine_learning.md'
+#rendered_content = render_markdown_from_s3(bucket_name, markdown_key)
+#print(rendered_content)
