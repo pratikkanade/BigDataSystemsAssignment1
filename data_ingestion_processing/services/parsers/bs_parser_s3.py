@@ -122,6 +122,7 @@ def parse_with_bs(url, bucket_name):
     """Scrapes a webpage to extract images, tables, and text using Selenium."""
 
     options = Options()
+    options.binary_location = "/usr/bin/google-chrome"
     options.add_argument("--headless")  # Run in headless mode
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--no-sandbox")

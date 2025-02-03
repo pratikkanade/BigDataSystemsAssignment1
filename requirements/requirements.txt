@@ -11,3 +11,5 @@ PyMuPDF==1.25.2
 zipp==3.21.0
 pdfservices-sdk==4.1.0
 streamlit==1.41.1
+uvicorn==0.34.0
+python-dotenv==1.0.1
