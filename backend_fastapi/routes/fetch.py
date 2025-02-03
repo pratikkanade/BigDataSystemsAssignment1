@@ -14,6 +14,11 @@ def fetch_parsed_file(filename: str = Query(...), parser_type: str = Query(...))
             if '/' in filename:
                 filename = filename.replace('/', '_')
                 file_path = f'{filename}/BeautifulSoup/{filename}.md'
+        
+        elif parser_type == "Apify (Enterprise)":
+            if '/' in filename:
+                filename = filename.replace('/', '_')
+                file_path = f'{filename}/BeautifulSoup/{filename}.md'
 
         elif parser_type == "PyMuPDF (Open Source)":
                 file_path = f'{filename}/PyMuPDF/{filename}.md'
