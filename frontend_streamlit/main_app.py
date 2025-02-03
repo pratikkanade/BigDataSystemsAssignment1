@@ -29,8 +29,13 @@ if page == "Extraction":
     elif input_source == "Web Page URL":
         url = st.text_input("Enter Web Page URL")
 
-        st.markdown("Extraction Method : Beautiful Soup (Open Source)")
-        extraction_method = "Beautiful Soup (Open Source)"
+        #st.markdown("Extraction Method : Beautiful Soup (Open Source)")
+        #extraction_method = "Beautiful Soup (Open Source)"
+
+        extraction_method = st.selectbox(
+            "Select Extraction Method of File",
+            ["Apify (Enterprise)", "Beautiful Soup (Open Source)"]
+        )
 
 
     if st.button("Extract Data"):
@@ -80,7 +85,7 @@ else:
 
     extraction_method = st.selectbox(
             "Select Extraction Method of File",
-            ["Adobe PDF Services (Enterprise)", "PyMuPDF (Open Source)", "Beautiful Soup (Open Source)"]
+            ["Adobe PDF Services (Enterprise)", "PyMuPDF (Open Source)", "Beautiful Soup (Open Source)", "Apify (Enterprise)"]
         )
 
     if st.button("Fetch Extracted Content"):

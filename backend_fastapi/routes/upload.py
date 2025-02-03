@@ -6,6 +6,8 @@ from pydantic import BaseModel, HttpUrl
 from data_ingestion_processing.services.parsers.pymupdf_parser_s3 import process_pdf_s3_upload
 from data_ingestion_processing.services.parsers.adobe_parser_s3 import process_pdf_adobe_s3_upload
 from data_ingestion_processing.services.parsers.bs_parser_s3 import parse_with_bs
+from data_ingestion_processing.services.parsers.apify_parser_s3 import process_pdf_apify_s3_upload
+
 
 
 router = APIRouter()
@@ -61,8 +63,12 @@ async def process_webpage(url_input: str = Query(...), parser_type: str = Query(
     try:
         # Call the scraping function
         if parser_type == "Beautiful Soup (Open Source)":
-            scraped_content = parse_with_bs(url_input, bucket_name)
-        return {"url parsed": url_input, "parsed at" : scraped_content }
+            s3_path = parse_with_bs(url_input, bucket_name)
+            
+        elif parser_type == "Apify (Enterprise)":
+            s3_path = process_pdf_apify_s3_upload(url_input, bucket_name)
+
+        return {"url parsed": url_input, "parsed at" : s3_path }
     
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error scraping webpage: {str(e)}")
