@@ -1,5 +1,4 @@
-# BigDataSystemsAssignment1
-#Automated Document Extraction & Standardization System 
+# Automated Document Extraction & Standardization System - Assignment 1
 Project Summary: Automated Document Extraction & Standardization System
 Overview
 This project explores the feasibility of using open-source and enterprise tools for extracting, processing, and standardizing unstructured data from PDFs and web pages. The goal is to develop a prototype AI application that automates data extraction, converts content into a structured Markdown format, and organizes files efficiently in an Amazon S3 storage system.
