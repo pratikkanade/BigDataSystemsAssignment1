@@ -13,8 +13,6 @@ router = APIRouter()
 # Define size limit (3MB in bytes)
 MAX_FILE_SIZE = 3 * 1024 * 1024
 
-class URLInput(BaseModel):
-    url: HttpUrl
 
 bucket_name='bigdatasystems'
 
@@ -59,12 +57,12 @@ async def upload_pdf(parser_type: str = Query(...), file: UploadFile = File(...)
     
 
 @router.post("/webpage")
-async def process_webpage(url_input: URLInput, parser_type: str = Query(...)) -> Dict:
+async def process_webpage(url_input: str = Query(...), parser_type: str = Query(...)) -> Dict:
     try:
         # Call the scraping function
         if parser_type == "Beautiful Soup (Open Source)":
-            scraped_content = parse_with_bs(str(url_input.url), bucket_name)
-        return {"url parsed": str(url_input.url), "parsed at" : scraped_content }
+            scraped_content = parse_with_bs(url_input, bucket_name)
+        return {"url parsed": url_input, "parsed at" : scraped_content }
     
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error scraping webpage: {str(e)}")
