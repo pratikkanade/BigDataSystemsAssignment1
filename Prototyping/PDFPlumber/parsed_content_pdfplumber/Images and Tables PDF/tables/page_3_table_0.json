@@ -1,0 +1,97 @@
+{
+    "table_info": {
+        "table_id": 1,
+        "table_filename": "page_3_table_0.json",
+        "page_number": 3,
+        "rows": 13,
+        "columns": 3,
+        "preview": [
+            [
+                "Terms",
+                "Definitions/characterizations",
+                "Source"
+            ],
+            [
+                "Sustainable packaging (9)",
+                null,
+                null
+            ],
+            [
+                "Sustainable packaging",
+                "By using the word \u2018sustainable\u2019 the concept of sustainability is applied to the field of\npackaging production (product/package systems). It includes insertion of the goals\nof sustainable development (economic, social and environment) into the life cycle of\npackaging, from cradle to grave, throughout each stage of the supply chain. As a\nresult, sustainable packaging is perceived as safe, healthy, market-efficient, and cost-\neffective, which is obtained, produced, transported, and recycled via sources of\nrenewable energy, as well as with the use of renewable or recyclable materials; it also\nutilizes clean production technologies and best practices; is designed to optimize the\nmaterials and energy used, and can be effectively recovered and reused in numerous\nproduction cycles.",
+                "Orzan et al. (2018); Gr\u00f6nman et al.\n(2013); Magnier and Schoormans\n(2015); Boz et al. (2020); Martinho\net al. (2015); Nordin and Selke (2010)"
+            ]
+        ],
+        "location": {
+            "page": 3,
+            "relative_position": 0
+        }
+    },
+    "table_data": [
+        [
+            "Terms",
+            "Definitions/characterizations",
+            "Source"
+        ],
+        [
+            "Sustainable packaging (9)",
+            null,
+            null
+        ],
+        [
+            "Sustainable packaging",
+            "By using the word \u2018sustainable\u2019 the concept of sustainability is applied to the field of\npackaging production (product/package systems). It includes insertion of the goals\nof sustainable development (economic, social and environment) into the life cycle of\npackaging, from cradle to grave, throughout each stage of the supply chain. As a\nresult, sustainable packaging is perceived as safe, healthy, market-efficient, and cost-\neffective, which is obtained, produced, transported, and recycled via sources of\nrenewable energy, as well as with the use of renewable or recyclable materials; it also\nutilizes clean production technologies and best practices; is designed to optimize the\nmaterials and energy used, and can be effectively recovered and reused in numerous\nproduction cycles.",
+            "Orzan et al. (2018); Gr\u00f6nman et al.\n(2013); Magnier and Schoormans\n(2015); Boz et al. (2020); Martinho\net al. (2015); Nordin and Selke (2010)"
+        ],
+        [
+            "Environmentally friendly packaging;\nEco-friendly packaging; Ecologically\nresponsible packaging; Ecologically\nconscious packaging; Pro-environmental\npackaging; Ecologically packaged\nproducts; Eco-design(ed) packaging",
+            "These terms are all related to a packaging innovation strategy, which contributes to\nthe United Nations (UN) Sustainable Development Goals (SDGs) and accomplishes\na balance of ecological, social, and economic development. It causes less\nenvironmental harm than traditional packaging, makes efficient use of materials,\nleads to less solid waste, and reduces food losses and waste. It is usually constructed\naccording to life cycle assessment (LCA), features multiple sustainable attributes, and\nevokes explicitly or implicitly consumers\u2019 eco-friendliness.",
+            "Nguyen et al. (2020); Prakash et al.\n(2019); Prakash and Pathak (2017);\nScott and Vigar-Ellis (2014); Ketelsen\net al. (2020); Koenig-Lewis et al.\n(2014); Yokokawa et al. (2018); Zeng\net al. (2021); Zeng et al. (2020); Zeng\nand Durif (2020); Magnier and Cri\u00e9\n(2015)"
+        ],
+        [
+            "Green packaging",
+            "Green packaging clearly highlights its impact on waste and pollution, uses ecological\nmaterials, or manufacturing techniques which avoid potentially toxic constituents for\nhuman health and the environment.",
+            "Wandosell et al. (2021); Ahmed and\nVarshney (2011)"
+        ],
+        [
+            "Circular packaging (14)",
+            null,
+            null
+        ],
+        [
+            "Circular packaging; Zero waste packaging",
+            "Circular packaging is designed according to the principles of the circular economy\n(recycled content, reusability, design for disassembly, and recyclability) to preserve\nthe natural resources, optimize their use, and minimize the negative impact on the\nenvironment. Zero waste packaging is specifically focused on the material flow, with\nno waste. However, often confused for zero landfill. In this case also, at end of life the\npackages are reused, repaired, or redistributed within the system.",
+            "Testa et al. (2020); J\u00e4ger and Piscicelli\n(2021); Song et al. (2015)"
+        ],
+        [
+            "Recyclable packaging",
+            "Recyclable packaging is made of materials that can be re-introduced within the circle\nwith the help of disposal, collection, sorting, and reprocessing with mechanical or\nchemical methods. Efficiency or economics are not included in this definition, nor if\nrecycling is down-cycling.",
+            "Muranko et al. (2021), Wang et al.\n(2021)"
+        ],
+        [
+            "Recycled packaging; Post-consumer\nrecycled content packaging; Ocean plastic\npackaging; Beach plastic packaging;",
+            "Recycled packaging is made of recycled materials (e.g.: post-consumer recycled\ncontent or ocean plastic) subsequently saving the need to use new, virgin material.",
+            "Van Sluisveld and Worrell (2013);\nMagnier et al. (2019)"
+        ],
+        [
+            "Reusable packaging; Closed-loop\npackaging; Returnable packaging; Multi-\nway packaging; Non-disposable\npackaging; Durable packaging; Refillable\npackaging",
+            "Reusable packaging is a waste management strategy and combines forward\ndistribution operations with reverse logistics, which involves an operation (handling,\nstorage, and transport) by which products or components are used again for the\nsame purpose for which they were conceived. This saves the need to use new\nmaterial.",
+            "Muranko et al., 2021; Accorsi et al.,\n2020; Van Sluisveld and Worrell, 2013;\nV\u00f6r\u00f6sk\u0151i et al. (2020); Dubiel, 1996;\nB\u00f6r\u00f6cz, 2023"
+        ],
+        [
+            "Bio packaging (10)",
+            null,
+            null
+        ],
+        [
+            "Bio-based packaging; Plant based\npackaging; Biomaterial based packaging;\nBioplastic packaging; Biopolymer\npackaging; Biopackaging",
+            "Bio-packaging refers to materials which are either bio-based, from renewable raw\nmaterials originating from biological resources (such as agricultural or marine\nsources: microbial resources like microbial cellulose, polyhydroxyalkanoates,\npolysaccharides, proteins, lipids, and/or resins), or bio-degradable or have both\nproperties. It includes bio-based packaging which may not be recyclable or\nbiodegradable, or fossil fuel-based yet biodegradable.",
+            "Gontard and Guilbert (1994);\nLomartire et al. (2022); Reichert et al.\n(2020); Cutter (2006); Santhosh et al.\n(2021); Cruz et al. (2022)"
+        ],
+        [
+            "Bio-degradable packaging; Oxo-\ndegradable packaging",
+            "Biodegradable packaging describes alternative end-of-life scenarios for packaging\nmaterials where its breakdown occurs via industrial or home-composting. Fossil\nfuel-based packaging that is bio-degradable can also be in this definition.",
+            "Reichert et al. (2020); Ivonkovic et al.\n(2017); Allison et al. (2021); Cruz et al.\n(2022); Zaborowska et al. (2021)"
+        ]
+    ]
+}

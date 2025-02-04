@@ -1,0 +1,30 @@
+1. RAG-Sequence:
+○ The generator processes each retrieved document sequentially.
+○ Produces multiple responses, one for each document, and selects the most
+relevant one.
+2. RAG-Token:
+○ The generator integrates information from multiple documents at the token
+level.
+○ Provides a more comprehensive and coherent response by combining
+insights from all retrieved documents.
+Advantages of RAG
+1. Enhanced Knowledge:
+○ Combines pre-trained language models with external knowledge bases for
+broader and up-to-date information.
+2. Reduced Hallucination:
+○ Incorporates factual data from retrieved documents, reducing the likelihood of
+generating incorrect or fabricated information.
+3. Modularity:
+○ The retriever and generator components can be improved independently,
+allowing for flexibility and customization.
+4. Scalability:
+○ Works effectively with large-scale knowledge bases using efficient retrieval
+methods.
+Applications of RAG
+1. Question Answering:
+○ Improves the accuracy of answers by using external documents for context.
+2. Chatbots:
+○ Enables chatbots to provide more informed and contextually rich responses.
+3. Document Summarization:
+○ Uses retrieved information to generate summaries for specific topics or
+queries.

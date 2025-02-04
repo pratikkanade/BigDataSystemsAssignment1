@@ -1,0 +1,111 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+Frontiers in Sustainable Food Systems 08 frontiersin.orgapplications, it is fundamental to implement appropriate innovative 
+functionalization strategies; among these, the use of nanotechnologies, 
+blending and/or filling technologies, the development of active 
+packaging, the realization of high performance active and passive 
+coatings and layers orientation. The combination of multiple 
+requirements and sustainability implementation possibilities makes 
+sustainable packaging development an extremely difficult balancing 
+act which is hard to measure. As a consequence, in practice, 
+sustainability in packaging development is still limited ( de Koeijer 
+et al., 2017 ).
+3.2.7. Multidisciplinary approach is needed to 
+create sustainable food packaging solutions
+Packaging sustainability is defined and measured differently 
+depending on the discipline ( Jiménez-Guerrero et al., 2015 ; Martinho 
+et al., 2015 ; Han et al., 2018 ; Herbes et al., 2020 ; Zeng and Durif, 2020 ; 
+Wandosell et  al., 2021 ; Zeng et  al., 2021 ). For example, from the 
+materials engineering perspective packaging sustainability means 
+balancing resource use while optimizing the properties of the 
+packaging source material (e.g.: ease in processability, low energy 
+consumption, or less use of chemicals in production or end of life). In 
+this case sustainability is mostly measured by LCA ( Steenis et al., 2018 ). 
+The process is not easy, especially if data input is poor ( Radonjič, 2019 ), 
+but at least with LCA it is possible to give an exact answer between 
+scenarios. On the other hand, from a marketing perspective, packaging 
+is an essential tool to communicate and influence consumers ( Dörnyei 
+and Lunardo, 2021 ), deliver information, and aid in decision making. 
+In this case the effectiveness of a package is mostly measured by 
+consumers’ willingness to buy, and sustainability is only applied with 
+designs that facilitate sales goals. Companies have clear ambitions with 
+regard to improving food packaging sustainability; but not at the 
+expense of product’s market potential. However, as far apart as the two 
+disciplines are at the current time, they must work together to find 
+optimal sustainable packaging solutions for food products.
+3.2.8. Not all food packaging innovation is 
+sustainable
+When developing innovative sustainable food packaging 
+solutions, challenges of technological nature, concerning materials 
+and processes, can be encountered. For example, in an attempt to 
+replace fossil-fuel-based plastics, the use of renewable materials in 
+bio-plastics is steadily growing ( Cruz et al., 2022 ; Rosenboom et al., 
+2022 ; Shlush and Davidovich-Pinhas, 2022 ). Although the use of 
+bio-plastic is associated with positive consumer perception ( Herbes 
+et  al., 2018 ), these materials may not be  necessarily compostable, 
+biodegradable, recyclable, or may be a challenge to sort depending on 
+the economies of scale in the various municipalities. In addition, some 
+technological properties of these materials are still not fully 
+satisfactory, hindering their large market uptake. Among these, raw 
+material variability, a too narrow processing window, inherent 
+brittleness, poor barrier properties, scarce impact and thermal 
+resistance. As for the processes, a fundamental requirement for the 
+implementation of innovative sustainable packaging solutions on a 
+large scale is industrial feasibility. In general, non-invasive innovations 
+compared to conventional technologies (e.g., redesigning packaging 
+by reducing thickness and weight) are excellent options for improving 
+current practices and are generally welcomed and accepted by all 
+stakeholders. On the other hand, more invasive innovations (for example the use of new materials or “niche” technological innovations, 
+not compatible with conventional manufacturing processes or 
+machin-ability) often raise a number of additional problems along the 
+value chain, will rarely meet industrial acceptance and may create 
+confusion and slow down acceptance and implementation ( Morone 
+and Imbert, 2020 ).
+3.2.9. Context (local) is key to food packaging 
+sustainability
+Determining the sustainability of the food packaging solution by 
+omitting the context in which the solution exists can lead to incorrect 
+evaluations. The context, i.e., country of origin, consumption region 
+and supply chains, specific product features, and user (consumer) 
+habits, plays a major role in determining packaging sustainability 
+(Lindh et al., 2016 ). For example, an LCA analysis of packaging for 
+olive oil demonstrated that while glass bottles are preferable for local 
+distribution, tinplate cans are more sustainable for long-distance 
+distribution ( Guiso et al., 2016 ). Therefore, including more context-
+specific factors into sustainable packaging evaluations will lead to 
+more sustainable and transparent solutions, toward true 
+harmonization of sustainable packaging in the marketplace.
+3.2.10. Regulatory landscape of sustainable food 
+packaging is not fully comprehensive
+Sustainable packaging is not yet properly defined by law, current 
+regulations are not comprehensive and often misleading to some 
+extent, which makes it a challenge to design truly sustainable packaging 
+solutions. Similarly, unnecessary packaging is also an ill-defined 
+concept. Labeling regulations are also limited: uses of claims (symbol, 
+color) which falsely convey that the package is more sustainable than 
+the alternative in the market can be  misleading and lead to 
+greenwashing ( Boz et al., 2020 ). It is then clear the need for a shared 
+regulatory framework, which constitutes a guideline for the sustainable 
+design of packaging and is supported by consumer engagement, 
+through a more transparent communication ( Dörnyei et al., 2022 ).
+3.2.11. Consumer knowledge and awareness on 
+sustainable food packaging is limited
+Recent studies highlight that consumers show increasing concern 
+about sustainability issues, and sustainability affected food 
+consumption is becoming a genuine driver of choice ( Trivium 
+Packaging, 2022 ). It is critical therefore that consumers are provided 
+with information on the sustainability of the food package, and that 
+there are clear instructions also on how to dispose of the food package 
+at the post consumer phase. Indeed, the consumer is mindful of the 
+environment but is often poorly informed about specific issues, for 
+example, the degree of sustainability of the various materials and the 
+context in which they are used. Consumers are often not able to 
+distinguish between industrial composting and household (home-) 
+composting, in addition, there is no real control (composition, rest of 
+plastic fragments, etc) on the compost made at home, which may 
+result in more littering. Recent evidence also shows that the 
+sustainability rating of European consumers and scientific LCAs 
+currently are misaligned ( Otto et al., 2021 ). Moreover, complexity in 
+use of terms (as already described above) also hinders consumer 
+understanding of truly sustainable packaging choices. Consumer 
+knowledge about packaging sustainability needs to be improved to 
+prevent and avoid greenwashing at consumer but also at industry level.

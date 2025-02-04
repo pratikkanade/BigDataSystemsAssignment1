@@ -1,0 +1,60 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+3.2.1. The protection of food products takes 3.2.4. Food packaging is a resource, not litter
+center stage Packaging is a people-made novel entity (Persson et al., 2022), and
+Packaging exists because of the product. This is especially true for it will always have a negative environmental cost; it is not possible to
+food products, where packaging can be regarded as an added service have packaging materials with no impact on the environment. All
+(Löfgren, 2005; Löfgren et al., 2008). Therefore, the packaging solution packaging material has an environmental footprint (Morgan et al.,
+needs to ensure, first and foremost, without compromises, the quality 2022), and there is a cost associated with the resources used, even
+and safety of the food it contains (Han et al., 2018). However, this when recycled or reused. In the case of food products, it is important
+sometimes includes over-packing with the use of unnecessary long to quantitatively measure the environmental footprint of the food,
+shelf life (often forced by retailers) instead of optimal shelf life or ‘just from cradle to grave, including the packaging material with its own
+necessary packaging’ (Coffigniez et al., 2021). Food packaging and life-cycle (if circular). Furthermore, the added value the package can
+shelf life extension is a balance between the packaging and waste. offer needs to be taken into consideration, together with any littering
+Longest shelf life sometimes is not necessary, especially in areas where or recovering efforts (consumer behavior is very important in the late
+logistic and technological infrastructure make it possible to consume stages of the life cycle), as well as any reduction in food waste. Food
+food in a much shorter time or if products are on average sold much packaging then should be considered as an additional, valuable
+before the expiration date. When long distances are instead critical to resource integral part of the food product, and can no longer
+provide consumers with healthy and affordable choices (i.e., remote be considered of low value, ending up in litter or waste.
+locations) long shelf life is critical to avoiding food waste. This means
+that the materials have a verifiable means to ensure – among others 3.2.5. Avoidance of food packaging is not always
+– no chemical components in amounts that can endanger the health the best option
+of the consumers should migrate from the environment (and from the As with many resources employed in the food system, complete
+packaging material) into the food, or release micro/nanoplastics in the avoidance of the packaging use should be the preferred solution, but
+environment. Such a product centered approach of packaging is very only if this does not have a detrimental effect on the safety and quality
+unique to the food packaging field and significantly complicates the of the product or on minimizing food waste (Beitzen-Heineke et al.,
+adoption and validation of universal sustainable packaging solutions. 2017; Williams et al., 2020). In particular, minimizing food waste
+needs to be the primary goal. On average, packaging is estimated to
+3.2.2. The food product-package is one account for only 10% of the total energy inputs for one person’s weekly
+inseparable unit consumption of food, while it plays a critical role in ensuring that the
+To evaluate and measure the sustainability of packaged food other 90% of energy inputs to the supply chain are not wasted
+products, the product and (and not necessarily only the primary) (Verghese et al., 2015). Instead, a critical hierarchy needs to
+container should be regarded as a unit with a common environmental be established, and it has to be related to an overall decrease of the
+footprint, and the material should not be evaluated alone itself, nor footprint, as quantified for example using a life cycle assessment
+the food (Meherishi et al., 2021). In particular, for food, it should (LCA), which takes into consideration all resources, as well as the end
+be emphasized that primary packaging prevents food waste, which is of life and food waste (Nguyen et al., 2020), and a social life cycle
+a very important aspect of the environmental footprint (Dilkes- assessment (SLCA), which is aimed at evaluating social and
+Hoffman et al., 2018; Molina-Besch et al., 2019). Food waste socioeconomic aspects of product-packaging units (Jørgensen, 2013).
+contributes to a significant amount of the total greenhouse gas
+emissions of the food, and once it is processed, all resources used are 3.2.6. Sustainable food packaging development,
+part of the final balance. The package is only a portion of the entire in practice, is a balancing act
+footprint (Crippa et al., 2021). Hence, no sustainable solutions can A well designed package needs to fulfill basic important functions,
+be found where the quality and shelf life of the product such as protection, storage, loading and transport, marketing, sale,
+are compromised. promotion and communication, and impart trust of the food to the
+consumer, a ‘guarantee’ of its quality and consistency (Molina-Besch
+3.2.3. For food packaging both direct and indirect et al., 2019; Ketelsen et al., 2020); all of this while also satisfying any
+sustainability effects must be considered sustainability requirements originating from the entire life of the
+Environmental impacts related to food packaging could be the product-package unit, including, but not limited to, logistics,
+result of direct (refer to the impacts caused during production, production, engineering, material sources, end of life functions such
+consumption, and disposal) or indirect (refer to the impacts as sorting, composting or recycling (Lindh et al., 2016; Wandosell
+generated by the industries that supply the final production point) et al., 2021). A sustainable packaging can be achieved by operating on
+effects on the environment (Lindh et al., 2016). While the negative three different levels: (1) at the level of raw materials (through the use
+direct effects of packages are usually considered in sustainability of recycled raw materials, renewable resources or deriving from the
+evaluations, the positive or negative indirect effects that packaging revaluation of industrial processing waste); (2) at the production level
+could provide through food product protection, supply chain, or (through more energy efficient processes); and (3) at the level of
+sorting and end of life are not always included. In case of packaged eco-design (through the reduction of thicknesses and weights; the
+food products, the two environmental effects need to be considered realization of mono materials, fully recyclable structures in alternative
+together (de Koeijer et al., 2017) as including indirect effects may to heterogeneous, multi material packaging, which are harder to sort;
+show very different overall environmental impact, depending on the the realization of biodegradable and/or compostable packaging, in
+food-packaging system (Williams and Wikström, 2011; Wikström alternative to fossil fuel-based materials). In order to provide
+et al., 2016). sustainable packaging with satisfying performance suitable for food
+Frontiers in Sustainable Food Systems 07 frontiersin.org

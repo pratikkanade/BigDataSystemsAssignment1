@@ -1,0 +1,33 @@
+Retrieval-Augmented Generation (RAG) is a framework used to enhance the performance
+of natural language generation tasks by integrating external information retrieval
+mechanisms. It is especially effective in scenarios where the generative model lacks
+sufficient knowledge or needs to produce contextually rich, accurate, and up-to-date
+information.
+Key Components of RAG
+1. Retriever:
+○ The retriever fetches relevant information or documents from an external
+knowledge base or dataset.
+○ Common techniques:
+■ Dense retrieval using models like Dense Passage Retrieval (DPR).
+■ Sparse retrieval using methods like TF-IDF or BM25.
+2. Generator:
+○ The generator is typically a language model (e.g., GPT, T5, or BART) that
+generates responses or text based on the retrieved information.
+○ It uses the retrieved context as input along with the user query to produce
+more informed and precise output.
+3. Knowledge Base:
+○ A collection of documents, passages, or structured data that serves as the
+source for retrieval.
+○ Can be static (e.g., Wikipedia dumps) or dynamically updated (e.g., enterprise
+databases).
+How RAG Works
+1. Input Query: The user provides a query or prompt.
+2. Retrieval:
+○ The retriever processes the query and retrieves the top-K relevant documents
+or passages from the knowledge base.
+3. Generation:
+○ The retrieved information is fed into the generator along with the original
+query.
+○ The generator produces the final response by synthesizing the input query
+and the retrieved context.
+Types of RAG Architectures

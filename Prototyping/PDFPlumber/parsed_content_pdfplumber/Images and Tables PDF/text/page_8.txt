@@ -1,0 +1,68 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+3.2.12. Food packaging is an information source a common definition, but a ‘standard’ to evaluate sustainability in this
+on both product and packaging sustainability field. This would reduce the number of vague, confusing, or even
+As one of the main contacts in the consumer journey, the package misleading claims, and align common metrics for what sustainability
+itself has increasingly become an effective way to communicate with is really about. As there are already problems with the ESG reporting
+consumers and other stakeholders about sustainability (Wyrwa and skewing by the companies due to vague framework and assessment,
+Barska, 2017). Consumers use multiple attributes and cues, such as the terminology and research must include strictly measured data
+packaging design (Otto et al., 2021), verbal attributes (e.g., text labels, with well defined goals, metrics and research framework.
+logos and other cues), symbolic and text-based cues (Dinh et al., 2022) It is then not only important to choose the appropriate material, and
+to evaluate the sustainability of the food product (such as product to design the appropriate packaging solution, but also awareness,
+composition or shelf-life) and its packaging (such as showing garbage education, and communication to the end users are required to ensure
+sorting instructions; Magnier and Crié, 2015). This dual task can that the package solution ends up being treated and used the way it is
+sometimes confuse users if not sufficiently explicit. intended. Compostability, recyclability, reuse rates for food packaging will
+continue to be limited if the practical implementation challenges (such as
+infrastructure) are not overcome, and unless the entire community does
+4. Updated and holistic definition for
+not resort to harmonized policies that reduce these practical challenges.
+sustainable food packaging
+In the case of food packaging, a consumer centered approach is key to
+ensure that the material does not end up as litter or landfill.
+The search for sustainable packaging solutions is constantly Being a balancing act, a sustainable food package solution may not
+evolving. Thanks to innovation in the food packaging field, be perfect, but contextual, suboptimal and in need of constant
+technological advances, and impact assessment methodologies, a fixed validation. It is important to note that food product designers, food
+definition of packaging sustainability is logically not possible. scientists and food packaging practitioners have in common the social
+However, results provided in this work suggest that there are some responsibility to find the best solution, even when it is not necessarily
+major aspects that contribute to a sustainability definition for food easy, affordable or convenient, and when it may require organizational
+packaging. A definition that includes all these aspects while giving changes, as we strive to reach global sustainability goals.
+space to future innovation is required (Santi et al., 2022). Therefore, a
+holistic definition of ‘sustainable food packaging’ is proposed here to
+Data availability statement
+be used by the broader food packaging community, in both scientific
+and mainstream publications.
+Sustainable food packaging is an optimized, measured (quantified) The original contributions presented in the study are included in
+and validated solution, which takes into consideration the balance of the article/supplementary material, further inquiries can be directed
+social, economic, ecological and safe implementations of the circular to the corresponding author.
+value chain, based on the entire history (life cycle) of the food product-
+package unit.
+Author contributions
+While the holistic definition was created specifically for the food
+domain, it can be also applied to other areas with minor changes. The
+definition offered takes into consideration the balance of the lowest KRD and MC: conceptualization and methodology. KRD:
+possible use of resources (e.g.: rational use of ecologically available writing—original draft preparation. KRD, IU-U, VK, RW, and MC:
+resources, avoidance of unnecessary overconsumption) and at the writing—review and editing. KRD, IU-U, VK, RW, LI, IK, GC, PC,
+same time all direct and indirect environmental impacts. It includes MCF, MKP, EA, BM, VF, AA, SY, FP, MD, LJ, VC, and MC: editing. All
+all aspects of the food-packaging unit, as well as all stakeholders and authors contributed to the article and approved the submitted version.
+actors needs along the supply chain, while being efficient, effective,
+Funding
+cyclic and safe (Lewis et al., 2007, 2010). Furthermore, it should
+be produced from renewable sources, preferably using land and water
+resources that do not displace food and feed. This holistic perspective This article/publication is based upon work from COST Action
+is key to the ability to take into consideration food safety and Circul-a-bility, supported by COST (European Cooperation in Science
+packaging functionality into the equation, including consumers, who and Technology; www.cost.eu).
+play a key role in ensuring that the intended design is implemented.
+The analysis of definitions also shows the necessity to broaden and
+Acknowledgments
+deepen the aspects of measurement and metrics of sustainable
+packaging and to open a new debate in future publications.
+Measurement is an important step of the current definition, however Authors would like to thank Anne Mette Emdal Navntoft, from
+exact measures that would be associated with this new definition is Aarhus University Library, for her expert advice on the literature search.
+not offered here. There are a plethora of metrics to assess packaging
+sustainability (e.g.: LCA, Ellen McArthur Circularity index), and the
+Conflict of interest
+landscape is dynamic, often new metrics emerge. Although the
+measurement of sustainability is still not a fully harmonized practice
+and often under debate, it should be made a priority to have systems The authors declare that the research was conducted in the
+in place that allow comparisons between solutions as they become absence of any commercial or financial relationships that could
+available. It is then clear that there is a need to come up not only with be construed as a potential conflict of interest.
+Frontiers in Sustainable Food Systems 09 frontiersin.org

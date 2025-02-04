@@ -1,0 +1,64 @@
+Dörnyei et al. 10.3389/fsufs.2023.1119052
+TABLE 1 (Continued)
+Terms Definitions/characterizations Source
+Compostable packaging Compostable packaging refers to materials which break down and degrade in the Reichert et al. (2020); Allison et al.
+environment, but consists of only organic elements that degrade in the environment (2021)
+without leaving any toxic residue. All compostable materials are biodegradable, but
+not all biodegradable materials are compostable.
+Edible packaging (films, coatings) Edible packaging is a wrapping or coating that is an integral part of the (food) Petkoska et al. (2021); Janjarasskul and
+product, fully degradable and can be eaten with the product. Krochta (2010); Kadzińska et al. (2019);
+Cutter (2006)
+Other sustainable packaging (5)
+(Eco) Refill packaging Refill packaging prolongs the lifetime of (parent) packaging through a second more Van Sluisveld and Worrell (2013)
+lightweight and flexible packaging (but also considered as a supplementary one-way
+product).
+Non-excessive packaging Non-excessive packaging refers to a packaging redesign, where abundant Van Sluisveld and Worrell (2013)
+components are removed without compromising other packaging functions, quality,
+and esthetics.
+Lightweight packaging; Downgauging Lightweight packaging decreases the external dimensions of packaging, while Van Sluisveld and Worrell (2013)
+packaging maintaining similar inner dimensions, while offering the same or an enhanced
+packaging strength [e.g.: reducing the average thickness of the original material;
+replacing original material for a more lightweight alternative (composite)].
+Innovative packaging This includes novel materials in mono- or multilayers while decreasing the Reichert et al. (2020); Vanderroost et al.
+environmental pressure by considering a broad range of sustainability issues (e.g.: (2014)
+waste prevention, efficient use of resources, process optimization, recycle, reuse).
+Innovative packaging is more of a design and holistic approach.
+The order of the terms was established based on relevance. The number of identified synonyms are in parentheses. The number of references used in the table depended on the number of
+identified synonyms for the same term and on the accuracy of the definition in the literature.
+TABLE 2 Review of challenges for sustainable packaging solutions. be proven safe (Nerín et al., 2022; Tsochatzis et al., 2022). Reusing,
+mechanical or chemical recycling are all within the circular
+1 The protection of food products takes center stage
+packaging definition, and the origin of the material (e.g.: from
+2 The food product-package is one inseparable unit renewable sources, fossil fuel) or the amount of resources (energy,
+3 For food packaging both direct and indirect sustainability effects must raw materials, etc) are not included in the definitions. Their end of
+be considered life can also be quite varying, for example, in the case of compostable
+materials, their conditions for compostability may vary from simple
+4 Food packaging is a resource, not litter
+household composting to complex industrial composting. Similarly,
+5 Avoidance of food packaging is not always the best option
+recycling can be chemical, mechanical, and may result in a
+6 Sustainable food packaging development, in practice, is a balancing act downgrade of the material. Furthermore, in this category of terms,
+7 Multidisciplinary approach is needed to create sustainable food packaging there is no reference to the specific functions (i.e., protection) that
+solutions the packaging material may impart to the food.
+8 Not all food packaging innovation is sustainable
+3.1.3. Bio packaging
+9 Context (local) is key to food packaging sustainability
+This is a diverse and slightly ill-defined category, since packages
+10 Regulatory landscape of sustainable food packaging is not fully
+in this category can also be those labeled “compostable,”
+comprehensive
+“bio-degradable,” “oxo-degradable,” or “bio-based.” These packages are
+11 Consumer knowledge and awareness on sustainable food packaging is highlighting the origin of the packaging material and/or its ability to
+limited degrade. The materials can be made from renewable sources (e.g.:
+12 Food packaging is an information source on both product and packaging second generation feedstocks), or are in some cases fossil-based.
+sustainability Plastic material made from bio-based material may not necessarily
+be bio-degradable. This broad group of packaging could be regarded
+The order of the challenges was established based on relevance.
+as a subcategory of sustainable packaging, however, one must consider
+the material’s origin, and especially in the case of displacement of food
+packaging, however the concept shifts the focus more to the life- crops with biomass waste or residues, e.g., unavoidable agricultural or
+cycle (resource cycles) and to the end of life of the material (Testa forestry wastes as well as their potential degradability at end of life
+et al., 2020), in spite of the fact that avoidance should be the highest alternative (Cruz et al., 2022). Moreover, such terms are a big source
+priority in the decision tree. Re-introducing a material to avoid the of confusion not only among consumers, therefore could lead to an
+use of virgin resources may at times be costly, or very difficult to environmental risk in the long term.
+Frontiers in Sustainable Food Systems 05 frontiersin.org
