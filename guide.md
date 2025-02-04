@@ -106,7 +106,7 @@ This guide provides step-by-step instructions on building a prototype applicatio
 |--------------------|-------------|----------|-------------|------------|
 | PyPDF2/pdfplumber  | Moderate    | High     | Easy        | Free       |
 | BeautifulSoup      | High        | Moderate | Easy        | Free       |
-| Microsoft Document Intelligence | High     | Very High   | Moderate   | Paid Subscription |
+| Adobe PDF Services | High        | Very High| Moderate    | Paid Subscription |
 
 ---
 
