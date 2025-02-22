@@ -1,6 +1,7 @@
 # Automated Document Extraction & Standardization System - Assignment 1
-Project Summary: Automated Document Extraction & Standardization System
-Overview
+
+### Overview
+
 This project explores the feasibility of using open-source and enterprise tools for extracting, processing, and standardizing unstructured data from PDFs and web pages. The goal is to develop a prototype AI application that automates data extraction, converts content into a structured Markdown format, and organizes files efficiently in an Amazon S3 storage system.
 
 The project evaluates the trade-offs between open-source libraries like PyMuPDF, and BeautifulSoup versus an enterprise-grade service like Adobe PDF Services, comparing their performance, accuracy, and scalability. The extracted content is standardized using Docling and MarkItDown, with a comparison of their suitability for Markdown conversion.
@@ -12,7 +13,8 @@ Content Standardization: Formatting extracted text with Markdown
 Cloud Storage: Organizing processed files in an S3 bucket
 API Development: Providing endpoints via FastAPI
 User Interface: A web-based interface built using Streamlit
-Key Features
+
+### Key Features
 1. Data Extraction & Processing
 PDF Parsing:
 Open-source: PyMuPDF
@@ -49,10 +51,10 @@ The project documents a detailed comparison between open-source tools and enterp
 2. Ease of integration into a larger pipeline
 3. Cost-effectiveness and scalability for enterprise use
 
-Proof of Concept (PoC):
+### Proof of Concept (PoC):
 This Proof of Concept (PoC) aims to validate the feasibility of automating document processing and standardization using AI-driven tools. The objective is to extract, process, and structure unstructured data from PDFs and web pages, converting them into a standardized Markdown format, and storing the processed content efficiently in an Amazon S3 storage system. The project evaluates open-source and enterprise-grade tools for data extraction, content transformation, and storage management.
 
-Implementation Pipeline
+### Implementation Pipeline
 
 1. Data Extraction & Processing
 
@@ -68,15 +70,7 @@ Open-source: BeautifulSoup
 
 Enterprise: Apify
 
-Comparison Metrics
-
-Text extraction accuracy
-
-Table and image preservation quality
-
-Scalability and performance
-
-Ease of integration
+Comparison Metrics: Text extraction accuracy, Table and image preservation quality, Scalability and performance, Ease of integration
 
 2. Standardization & Markdown Conversion
 
@@ -84,13 +78,7 @@ Docling: Specialized in structured linguistic processing
 
 MarkItDown: Flexible for generic Markdown formatting
 
-Comparison Metrics
-
-Content structuring effectiveness
-
-Markdown conversion accuracy
-
-Ease of integration into the pipeline
+Comparison Metrics: Content structuring effectiveness, Markdown conversion accuracy, Ease of integration into the pipeline
 
 3. File Organization & Storage (Amazon S3)
 
@@ -111,15 +99,47 @@ Triggers processing pipeline via API calls
 Provides downloadable processed Markdown files
 Deployed on Amazon Web Services for accessibility
 
-Evaluation & Findings
+### Evaluation & Findings
 Performance Comparison
-Feature	                        PyMuPDF	             Adobe PDF Services	         BeautifulSoup	     Apify
-Text Extraction Accuracy	        High	               Very High	                 Moderate	          High
-Table/Image Preservation	       Limited	              Advanced	                    N/A	            High
-Scalability	                     Moderate	             High	                    Moderate	         High
-Ease of Integration	              High	                Moderate	                    High	           High
 
-Key Findings
+
+|  Feature	                   |     PyMuPDF	      |       Adobe PDF Services	  |    BeautifulSoup	    |   Apify  |
+|-----------------------------|-------------------|----------------------------|----------------------|----------|
+|  Text Extraction Accuracy	  |      High	        |       Very High	           |      Moderate	       |   High   | 
+|  Table/Image Preservation	  |     Limited	      |        Advanced	           |         N/A	         |   High   |
+|  Scalability	               |      Moderate	    |         High	              |      Moderate	       |   High   |
+|  Ease of Integration	       |       High	       |         Moderate	          |          High	       |   High   |
+
+
+### Steps to deploy and start the application on a cloud server:
+
+1. Install virtual environment: `sudo apt install python3-venv` 
+
+2. Use the root user: `sudo su` 
+ 
+3. Activate the virtual environment: `source venv/bin/activate`
+ 
+4. Clone the repository: `git clone https://github.com/pratikkanade/BigDataSystemsAssignment1.git`
+ 
+5. Open the cloned repo: `cd BigDataSystemsAssignment1`
+ 
+6. Install the required dependencies: `pip install -r requirements/requirements.txt`
+ 
+7. Start the FastAPI server on one terminal: `uvicorn backend_fastapi.main:app --reload`
+
+8. In another terminal, repeat steps 2, 3, 5 and run the below command to start a streamlit application
+
+9. Start the streamlit server on another terminal: `streamlit run frontend_streamlit/main_app.py`
+
+### Streamlit Application Link 
+Access the link: http://3.130.104.76:8501/
+
+### Codelabs
+
+
+
+
+### Key Findings
 
 Open-source solutions provide cost-effectiveness but require additional optimizations for accuracy and scalability.
 
@@ -133,7 +153,7 @@ Docling is useful for structured text, while MarkItDown is more flexible for gen
 
 A structured file organization strategy in S3 ensures efficient storage and retrieval of processed documents.
 
-Conclusion & Next Steps
+### Conclusion & Next Steps
 
 Enhance Open-source Solutions: Improve Apify and BeautifulSoup integration for better text and table extraction.
 
