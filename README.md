@@ -139,7 +139,7 @@ Performance Comparison
 Access the link: http://3.130.104.76:8501/
 
 ### Codelabs
-
+https://pratikkanade.github.io/PDFExtractorApplication/#0
 
 
 
