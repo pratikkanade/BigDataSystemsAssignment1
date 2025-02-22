@@ -6,13 +6,17 @@ This project explores the feasibility of using open-source and enterprise tools 
 
 The project evaluates the trade-offs between open-source libraries like PyMuPDF, and BeautifulSoup versus an enterprise-grade service like Adobe PDF Services, comparing their performance, accuracy, and scalability. The extracted content is standardized using Docling and MarkItDown, with a comparison of their suitability for Markdown conversion.
 
-A full pipeline is implemented, consisting of:
+A full pipeline is implemented, consisting of:-
 
 Data Extraction: Parsing PDFs and scraping web pages
 Content Standardization: Formatting extracted text with Markdown
 Cloud Storage: Organizing processed files in an S3 bucket
 API Development: Providing endpoints via FastAPI
 User Interface: A web-based interface built using Streamlit
+
+
+![Content Parsing and Deployment Architecture](https://github.com/pratikkanade/PDFExtractorApplication/blob/main/architecture_diagram.jpeg?raw=true)
+
 
 ### Key Features
 1. Data Extraction & Processing
@@ -136,7 +140,8 @@ Access the link: http://3.130.104.76:8501/
 
 ### Codelabs
 
-https://pratikkanade.github.io/PDFExtractorApplication/#0
+
+
 
 ### Key Findings
 
