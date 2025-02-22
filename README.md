@@ -129,7 +129,7 @@ Performance Comparison
  
 6. Install the required dependencies: `pip install -r requirements/requirements.txt`
  
-7. Start the FastAPI server on one terminal: `uvicorn backend_fastapi.main:app --reload`
+7. Start the FastAPI server on one terminal: `uvicorn backend_fastapi.main:app --host 0.0.0.0 --port 8000 --reload`
 
 8. In another terminal, repeat steps 2, 3, 5 and run the below command to start a streamlit application
 
@@ -138,10 +138,11 @@ Performance Comparison
 ### Streamlit Application Link 
 Access the link: http://3.130.104.76:8501/
 
+### Fastapi Link
+Access the link: http://3.130.104.76:8000/docs
+
 ### Codelabs
 https://pratikkanade.github.io/PDFExtractorApplication/#0
-
-
 
 ### Key Findings
 
