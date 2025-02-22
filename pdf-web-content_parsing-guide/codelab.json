@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2025-02-03T01:45:24-05:00",
+  "id": "pdf-web-content_parsing-guide",
+  "duration": 0,
+  "title": "Pdf and Web scraping content parsing Guide",
+  "authors": "Hishita Thakkar",
+  "summary": "Pdf and Web scraping content parsing Guide",
+  "source": "./guide.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "machinelearning",
+    "dataprocessing"
+  ],
+  "tags": [],
+  "feedback": "https://your-feedback-link.com",
+  "url": "pdf-web-content_parsing-guide"
+}

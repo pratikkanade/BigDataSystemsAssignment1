@@ -1,0 +1,336 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Pdf and Web scraping content parsing Guide</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="pdf-web-content_parsing-guide"
+                  title="Pdf and Web scraping content parsing Guide"
+                  environment="web"
+                  feedback-link="https://your-feedback-link.com">
+    
+      <google-codelab-step label="Table of Contents" duration="0">
+        <ol type="1">
+<li><a href="#prerequisites" target="_blank">Prerequisites</a></li>
+<li><a href="#setup-instructions" target="_blank">Setup Instructions</a></li>
+<li><a href="#part-1-data-extraction" target="_blank">Part 1: Data Extraction</a><ul>
+<li>Extracting from PDFs</li>
+<li>Scraping Webpages</li>
+</ul>
+</li>
+<li><a href="#part-2-comparison-of-tools" target="_blank">Part 2: Comparison of Tools</a></li>
+<li><a href="#part-3-standardization" target="_blank">Part 3: Standardization with Docling and MarkItDown</a></li>
+<li><a href="#part-4-file-organization" target="_blank">Part 4: File Organization and Storage in AWS S3</a></li>
+<li><a href="#part-5-api-development" target="_blank">Part 5: API Development with FastAPI</a></li>
+<li><a href="#part-6-client-app" target="_blank">Part 6: Client-Facing Application with Streamlit</a></li>
+<li><a href="#conclusion" target="_blank">Conclusion</a></li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prerequisites" duration="0">
+        <ul>
+<li>Basic knowledge of Python</li>
+<li>Familiarity with REST APIs</li>
+<li>AWS Account with S3 access</li>
+<li>Installed tools: Python 3.x, pip, virtualenv, Git</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Setup Instructions" duration="0">
+        <ol type="1">
+<li><strong>Clone the Repository</strong><pre><code language="language-bash" class="language-bash">git clone https://github.com/your-repo/ai-data-processing.git
+cd ai-data-processing
+</code></pre>
+</li>
+<li><strong>Create a Virtual Environment</strong><pre><code language="language-bash" class="language-bash">python3 -m venv venv
+source venv/bin/activate
+</code></pre>
+</li>
+<li><strong>Install Dependencies</strong><pre><code language="language-bash" class="language-bash">pip install -r requirements.txt
+</code></pre>
+</li>
+<li><strong>Setup AWS CLI</strong><pre><code language="language-bash" class="language-bash">aws configure
+</code></pre>
+</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 1: Data Extraction" duration="0">
+        <h2 is-upgraded>Extracting from PDFs</h2>
+<ol type="1">
+<li><strong>Using Open-Source Tools (PyPDF2, pdfplumber)</strong><ul>
+<li>Create <code>pdf_extraction.py</code>:</li>
+</ul>
+<pre><code language="language-python" class="language-python">import PyPDF2
+import pdfplumber
+
+def extract_text_pypdf2(pdf_path):
+    with open(pdf_path, &#39;rb&#39;) as file:
+        reader = PyPDF2.PdfReader(file)
+        return &#34; &#34;.join([page.extract_text() for page in reader.pages])
+
+def extract_text_pdfplumber(pdf_path):
+    with pdfplumber.open(pdf_path) as pdf:
+        return &#34; &#34;.join([page.extract_text() for page in pdf.pages])
+</code></pre>
+</li>
+<li><strong>Using Enterprise Service (Microsoft Document Intelligence)</strong><ul>
+<li>Refer to Microsoft&#39;s official documentation for API setup.</li>
+</ul>
+</li>
+</ol>
+<h2 is-upgraded>Scraping Webpages</h2>
+<ol type="1">
+<li><strong>Using Open-Source Tools (BeautifulSoup, Requests)</strong><ul>
+<li>Create <code>web_scraping.py</code>:</li>
+</ul>
+<pre><code language="language-python" class="language-python">import requests
+from bs4 import BeautifulSoup
+
+def scrape_with_bs4(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, &#39;html.parser&#39;)
+    return soup.get_text()
+</code></pre>
+</li>
+<li><strong>Using Enterprise Service (Microsoft Document Intelligence)</strong><ul>
+<li>Process webpage content through API calls similarly to PDF processing.</li>
+</ul>
+</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 2: Comparison of Tools" duration="0">
+        <h2 is-upgraded>Evaluation Criteria</h2>
+<ul>
+<li><strong>Performance:</strong> Speed and resource usage</li>
+<li><strong>Accuracy:</strong> Quality of extracted content (text, images, tables)</li>
+<li><strong>Ease of Use:</strong> Documentation clarity and API simplicity</li>
+<li><strong>Cost:</strong> Open-source (free) vs. Enterprise (subscription-based)</li>
+</ul>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Tool</p>
+</td><td colspan="1" rowspan="1"><p>Performance</p>
+</td><td colspan="1" rowspan="1"><p>Accuracy</p>
+</td><td colspan="1" rowspan="1"><p>Ease of Use</p>
+</td><td colspan="1" rowspan="1"><p>Cost</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>PyPDF2/pdfplumber</p>
+</td><td colspan="1" rowspan="1"><p>Moderate</p>
+</td><td colspan="1" rowspan="1"><p>High</p>
+</td><td colspan="1" rowspan="1"><p>Easy</p>
+</td><td colspan="1" rowspan="1"><p>Free</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>BeautifulSoup</p>
+</td><td colspan="1" rowspan="1"><p>High</p>
+</td><td colspan="1" rowspan="1"><p>Moderate</p>
+</td><td colspan="1" rowspan="1"><p>Easy</p>
+</td><td colspan="1" rowspan="1"><p>Free</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Microsoft Document Intelligence</p>
+</td><td colspan="1" rowspan="1"><p>High</p>
+</td><td colspan="1" rowspan="1"><p>Very High</p>
+</td><td colspan="1" rowspan="1"><p>Moderate</p>
+</td><td colspan="1" rowspan="1"><p>Paid Subscription</p>
+</td></tr>
+</table>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 3: Standardization with Docling and MarkItDown" duration="0">
+        <h2 is-upgraded>Integrating Docling and MarkItDown</h2>
+<ol type="1">
+<li><strong>Install Tools</strong><pre><code language="language-bash" class="language-bash">pip install docling markitdown
+</code></pre>
+</li>
+<li><strong>Convert to Markdown</strong><ul>
+<li>Create <code>standardize.py</code>:</li>
+</ul>
+<pre><code language="language-python" class="language-python">from docling import convert as docling_convert
+from markitdown import convert as markitdown_convert
+
+def convert_with_docling(text):
+    return docling_convert(text)
+
+def convert_with_markitdown(text):
+    return markitdown_convert(text)
+</code></pre>
+</li>
+</ol>
+<h2 is-upgraded>Pros and Cons</h2>
+<table>
+<tr><td colspan="1" rowspan="1"><p>Tool</p>
+</td><td colspan="1" rowspan="1"><p>Pros</p>
+</td><td colspan="1" rowspan="1"><p>Cons</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>Docling</p>
+</td><td colspan="1" rowspan="1"><p>Retains detailed structure</p>
+</td><td colspan="1" rowspan="1"><p>Slightly complex API</p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p>MarkItDown</p>
+</td><td colspan="1" rowspan="1"><p>Simple and fast conversion</p>
+</td><td colspan="1" rowspan="1"><p>Limited formatting</p>
+</td></tr>
+</table>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 4: File Organization and Storage in AWS S3" duration="0">
+        <h2 is-upgraded>Organizing Files</h2>
+<ol type="1">
+<li><strong>Setup S3 Buckets</strong><pre><code language="language-bash" class="language-bash">aws s3 mb s3://your-bucket-name
+</code></pre>
+</li>
+<li><strong>Upload Files with Metadata</strong><ul>
+<li>Create <code>upload_s3.py</code>:</li>
+</ul>
+<pre><code language="language-python" class="language-python">import boto3
+
+s3 = boto3.client(&#39;s3&#39;)
+
+def upload_file(file_name, bucket, object_name=None, metadata={}):
+    if object_name is None:
+        object_name = file_name
+    s3.upload_file(file_name, bucket, object_name, ExtraArgs={&#39;Metadata&#39;: metadata})
+</code></pre>
+</li>
+</ol>
+<h2 is-upgraded>Best Practices</h2>
+<ul>
+<li><strong>Naming Conventions:</strong> Use clear and consistent names.</li>
+<li><strong>Data Partitioning:</strong> Organize by file type, date, or source.</li>
+<li><strong>Security:</strong> Enable encryption and apply appropriate IAM policies.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 5: API Development with FastAPI" duration="0">
+        <h2 is-upgraded>Creating APIs</h2>
+<ol type="1">
+<li><strong>Install FastAPI and Uvicorn</strong><pre><code language="language-bash" class="language-bash">pip install fastapi uvicorn
+</code></pre>
+</li>
+<li><strong>Create API (</strong><strong><code>api.py</code></strong><strong>)</strong><pre><code language="language-python" class="language-python">from fastapi import FastAPI, UploadFile, File
+from pdf_extraction import extract_text_pypdf2
+from web_scraping import scrape_with_bs4
+
+app = FastAPI()
+
+@app.post(&#34;/upload-pdf/&#34;)
+async def upload_pdf(file: UploadFile = File(...)):
+    content = extract_text_pypdf2(file.file)
+    return {&#34;content&#34;: content}
+
+@app.post(&#34;/scrape-web/&#34;)
+async def scrape_web(url: str):
+    content = scrape_with_bs4(url)
+    return {&#34;content&#34;: content}
+
+if __name__ == &#34;__main__&#34;:
+    import uvicorn
+    uvicorn.run(app, host=&#34;0.0.0.0&#34;, port=8000)
+</code></pre>
+</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Part 6: Client-Facing Application with Streamlit" duration="0">
+        <h2 is-upgraded>Building the Interface</h2>
+<ol type="1">
+<li><strong>Install Streamlit</strong><pre><code language="language-bash" class="language-bash">pip install streamlit
+</code></pre>
+</li>
+<li><strong>Create Streamlit App (</strong><strong><code>app.py</code></strong><strong>)</strong><pre><code language="language-python" class="language-python">import streamlit as st
+import requests
+
+st.title(&#34;Data Processing Tool&#34;)
+
+option = st.selectbox(&#34;Choose an option:&#34;, [&#34;Upload PDF&#34;, &#34;Scrape Webpage&#34;])
+
+if option == &#34;Upload PDF&#34;:
+    uploaded_file = st.file_uploader(&#34;Upload your PDF&#34;)
+    if uploaded_file:
+        response = requests.post(&#34;http://localhost:8000/upload-pdf/&#34;, files={&#34;file&#34;: uploaded_file})
+        st.write(response.json())
+elif option == &#34;Scrape Webpage&#34;:
+    url = st.text_input(&#34;Enter webpage URL&#34;)
+    if url:
+        response = requests.post(&#34;http://localhost:8000/scrape-web/&#34;, json={&#34;url&#34;: url})
+        st.write(response.json())
+</code></pre>
+</li>
+<li><strong>Run the App</strong><pre><code language="language-bash" class="language-bash">streamlit run app.py
+</code></pre>
+</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Conclusion" duration="0">
+        <p>In this guide, you learned to:</p>
+<ul>
+<li>Extract data from PDFs and webpages using both open-source and enterprise tools.</li>
+<li>Standardize data formats using Docling and MarkItDown.</li>
+<li>Organize and store data in AWS S3 following best practices.</li>
+<li>Develop APIs with FastAPI and create a user interface with Streamlit.</li>
+</ul>
+<p>You can now enhance this prototype into a more comprehensive data processing application.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Additional Resources" duration="0">
+        <ul>
+<li><a href="https://github.com/DS4SD/docling" target="_blank">Docling GitHub Repository</a></li>
+<li><a href="https://github.com/microsoft/markitdown" target="_blank">MarkItDown GitHub Repository</a></li>
+<li><a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/best-practices.html" target="_blank">AWS S3 Best Practices</a></li>
+<li><a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI Documentation</a></li>
+<li><a href="https://docs.streamlit.io/" target="_blank">Streamlit Documentation</a></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
