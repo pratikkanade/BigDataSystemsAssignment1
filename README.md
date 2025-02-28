@@ -117,23 +117,21 @@ Performance Comparison
 
 ### Steps to deploy and start the application on a cloud server:
 
-1. Install virtual environment: `sudo apt install python3-venv` 
+1. Use the root user: `sudo su` 
+ 
+2. Activate the virtual environment: `source venv/bin/activate`
+ 
+3. Clone the repository: `git clone https://github.com/pratikkanade/BigDataSystemsAssignment1.git`
+ 
+4. Open the cloned repo: `cd BigDataSystemsAssignment1`
+ 
+5. Install the required dependencies: `pip install -r requirements/requirements.txt`
+ 
+6. Start the FastAPI server on one terminal: `uvicorn backend_fastapi.main:app --host 0.0.0.0 --port 8000 --reload`
 
-2. Use the root user: `sudo su` 
- 
-3. Activate the virtual environment: `source venv/bin/activate`
- 
-4. Clone the repository: `git clone https://github.com/pratikkanade/BigDataSystemsAssignment1.git`
- 
-5. Open the cloned repo: `cd BigDataSystemsAssignment1`
- 
-6. Install the required dependencies: `pip install -r requirements/requirements.txt`
- 
-7. Start the FastAPI server on one terminal: `uvicorn backend_fastapi.main:app --host 0.0.0.0 --port 8000 --reload`
+7. In another terminal, repeat steps 1, 2, 4 and run the below command to start a streamlit application
 
-8. In another terminal, repeat steps 2, 3, 5 and run the below command to start a streamlit application
-
-9. Start the streamlit server on another terminal: `streamlit run frontend_streamlit/main_app.py`
+8. Start the streamlit server on another terminal: `streamlit run frontend_streamlit/main_app.py`
 
 ### Streamlit Application Link 
 Access the link: http://3.130.104.76:8501/
